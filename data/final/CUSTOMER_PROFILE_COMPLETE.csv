@@ -1,0 +1,419 @@
+CUSTOMER_ID,CUSTOMER_NAME,EMAIL,PHONE,STATE,REGION,COUNTRY,CITY,POSTAL_CODE,ACCOUNT_TYPE,CUSTOMER_SEGMENT,CUSTOMER_SINCE,ACCOUNT_STATUS,MONTHLY_PLAN_VALUE,LIFETIME_VALUE,PAYMENT_METHOD,PREFERRED_CONTACT,LANGUAGE_PREFERENCE,AGE_GROUP,INDUSTRY
+1,Alexander Carter,alexander.carter@email.com,555-555-3874,Georgia,South,United States,Savannah,91189,Residential,Premium,2024-04-01,Active,146.86,2692.43,Invoice,Phone,English,25-34,N/A
+2,Alexander Flores,alexander.flores@consulting.com,555-555-7157,New Jersey,Northeast,United States,Newark,26954,Business,Enterprise,2020-11-29,Active,366.67,21621.31,Bank Transfer,Email,English,35-44,Retail
+3,Alexander Martin,alexander.martin@email.com,555-555-2756,New Jersey,Northeast,United States,Newark,87652,Residential,Individual,2024-02-27,Active,76.43,1487.84,Bank Transfer,SMS,English,45-54,N/A
+4,Alexander Roberts,alexander.roberts@email.com,555-555-5386,Arizona,West,United States,Phoenix,78275,Residential,Premium,2023-06-29,Active,131.25,3618.12,Bank Transfer,SMS,English,65+,N/A
+5,Amanda Flores,amanda.flores@email.com,555-555-8812,California,West,United States,San Francisco,21318,Residential,Premium,2023-04-19,Active,147.77,4423.25,Bank Transfer,Email,English,65+,N/A
+6,Amanda Hill,amanda.hill@email.com,555-555-6529,South Carolina,Southeast,United States,Columbia,63688,Residential,Individual,2021-12-12,Active,75.13,3483.53,Credit Card,Email,Korean,35-44,N/A
+7,Amanda Martin,amanda.martin@email.com,555-555-1998,Colorado,West,United States,Colorado Springs,87082,Residential,Individual,2022-02-13,Active,86.43,3825.97,Bank Transfer,Email,Spanish,35-44,N/A
+8,Amanda Mitchell,amanda.mitchell@email.com,555-555-3511,Massachusetts,Northeast,United States,Boston,55685,Residential,Premium,2021-03-21,Active,151.65,8376.14,Debit Card,SMS,English,25-34,N/A
+9,Amanda Rivera,amanda.rivera@email.com,555-555-4758,Alabama,Southeast,United States,Birmingham,34572,Residential,Individual,2021-12-10,Active,73.06,3392.42,Bank Transfer,Phone,English,55-64,N/A
+10,Amanda Turner,amanda.turner@email.com,555-555-4508,North Carolina,South,United States,Raleigh,72698,Residential,Individual,2021-06-21,Active,89.12,4649.09,Credit Card,Phone,English,35-44,N/A
+11,Amanda Walker,amanda.walker@email.com,555-555-6222,North Carolina,South,United States,Charlotte,92534,Residential,Individual,2023-07-14,Active,84.04,2274.68,Debit Card,SMS,English,25-34,N/A
+12,Amanda Williams,amanda.williams@email.com,555-555-9511,Massachusetts,Northeast,United States,Boston,43466,Residential,Premium,2021-06-06,Cancelled,131.04,6901.44,Invoice,Phone,English,35-44,N/A
+13,Amy Adams,amy.adams@email.com,555-555-9092,Florida,South,United States,Orlando,72383,Residential,Individual,2021-09-27,Active,81.75,3997.57,Invoice,Phone,English,35-44,N/A
+14,Amy Campbell,amy.campbell@email.com,555-555-4274,Minnesota,Midwest,United States,St. Paul,10999,Residential,Individual,2023-02-18,Active,77.83,2485.37,Invoice,SMS,English,45-54,N/A
+15,Amy Gonzalez,amy.gonzalez@email.com,555-555-3132,Massachusetts,Northeast,United States,Boston,63663,Residential,Premium,2023-08-23,Active,137.77,3545.28,Credit Card,Phone,English,35-44,N/A
+16,Amy Martin,amy.martin@email.com,555-555-9512,Texas,South,United States,San Antonio,87666,Residential,Individual,2022-08-01,Active,98.46,3803.84,Invoice,Phone,English,35-44,N/A
+17,Amy Robinson,amy.robinson@consulting.com,555-555-7569,Massachusetts,Northeast,United States,Cambridge,35926,Business,Mid-Market,2024-05-16,Active,209.7,3529.95,Invoice,SMS,English,35-44,Financial Services
+18,Amy Turner,amy.turner@email.com,555-555-6407,Nevada,West,United States,Reno,43460,Residential,Premium,2023-11-21,Active,174.03,3956.28,Bank Transfer,Email,English,25-34,N/A
+19,Angela Anderson,angela.anderson@consulting.com,555-555-9976,Florida,South,United States,Miami,84076,Business,Mid-Market,2023-12-24,Active,250.95,5428.88,Invoice,Phone,English,25-34,Education
+20,Angela Campbell,angela.campbell@email.com,555-555-6732,Washington,West,United States,Tacoma,31816,Residential,Senior,2024-06-08,Active,49.45,794.5,Invoice,SMS,Korean,55-64,N/A
+21,Angela Carter,angela.carter@email.com,555-555-5493,Virginia,Southeast,United States,Richmond,28657,Residential,Premium,2023-05-27,Active,162.73,4664.93,Credit Card,Phone,English,65+,N/A
+22,Angela Evans,angela.evans@email.com,555-555-4069,Colorado,West,United States,Denver,18773,Residential,Senior,2023-08-02,Active,50.49,1334.62,Debit Card,Email,English,45-54,N/A
+23,Angela Hill,angela.hill@corporate.com,555-555-3019,New Jersey,Northeast,United States,Newark,91926,Business,Enterprise,2021-05-12,Active,334.54,17897.89,Invoice,Email,English,35-44,Professional Services
+24,Angela Mitchell,angela.mitchell@email.com,555-555-2356,Massachusetts,Northeast,United States,Cambridge,56273,Residential,Premium,2021-02-06,Active,137.69,7802.43,Debit Card,SMS,English,45-54,N/A
+25,Angela Scott,angela.scott@email.com,555-555-8305,North Carolina,South,United States,Raleigh,38939,Residential,Individual,2021-08-15,Active,79.99,4026.16,Bank Transfer,Email,English,55-64,N/A
+26,Angela Torres,angela.torres@email.com,555-555-8444,Hawaii,West,United States,Honolulu,12669,Residential,Individual,2022-04-21,Active,92.86,3903.22,Debit Card,SMS,English,35-44,N/A
+27,Angela Turner,angela.turner@email.com,555-555-5718,Alabama,Southeast,United States,Montgomery,87616,Residential,Premium,2024-05-04,Active,149.44,2575.35,Bank Transfer,Email,English,65+,N/A
+28,Anna Anderson,anna.anderson@email.com,555-555-2169,Hawaii,West,United States,Honolulu,15021,Residential,Premium,2023-03-27,Active,178.52,5480.56,Credit Card,Phone,English,45-54,N/A
+29,Anna Baker,anna.baker@email.com,555-555-6407,Oregon,West,United States,Eugene,73308,Residential,Individual,2022-12-09,Active,72.0,2469.6,Credit Card,Email,English,65+,N/A
+30,Anna Parker,anna.parker@email.com,555-555-2899,Georgia,South,United States,Atlanta,61288,Residential,Individual,2023-01-05,Active,95.81,3200.05,Debit Card,SMS,English,25-34,N/A
+31,Anthony Anderson,anthony.anderson@email.com,555-555-7687,North Carolina,South,United States,Raleigh,72891,Residential,Premium,2022-11-17,Active,136.02,4765.23,Credit Card,SMS,English,55-64,N/A
+32,Anthony Evans,anthony.evans@business.com,555-555-8539,Alabama,Southeast,United States,Montgomery,75757,Business,Mid-Market,2024-07-17,Active,216.37,3195.06,Invoice,Phone,English,35-44,Healthcare
+33,Anthony Harris,anthony.harris@email.com,555-555-8472,Indiana,Midwest,United States,Indianapolis,54979,Residential,Individual,2020-10-20,Active,95.21,5741.16,Bank Transfer,Phone,English,65+,N/A
+34,Anthony Moore,anthony.moore@email.com,555-555-4706,Colorado,West,United States,Colorado Springs,84968,Residential,Individual,2023-06-19,Active,75.74,2113.15,Debit Card,Email,English,55-64,N/A
+35,Anthony Nguyen,anthony.nguyen@email.com,555-555-2878,California,West,United States,San Jose,73340,Residential,Individual,2022-02-27,Active,94.74,4149.61,Credit Card,SMS,Spanish,45-54,N/A
+36,Anthony Robinson,anthony.robinson@email.com,555-555-1713,Florida,South,United States,Tampa,69229,Residential,Individual,2023-12-19,Active,93.16,2030.89,Invoice,Email,English,65+,N/A
+37,Anthony Torres,anthony.torres@email.com,555-555-2322,Arizona,West,United States,Phoenix,58117,Residential,Premium,2022-02-01,Active,152.31,6803.18,Invoice,Phone,Spanish,35-44,N/A
+38,Anthony Wilson,anthony.wilson@email.com,555-555-9199,Virginia,Southeast,United States,Richmond,50686,Residential,Premium,2023-07-26,Active,164.35,4382.67,Bank Transfer,SMS,English,25-34,N/A
+39,Ashley Baker,ashley.baker@email.com,555-555-5281,North Carolina,South,United States,Charlotte,24763,Residential,Premium,2024-01-09,Active,168.84,3562.52,Debit Card,Email,English,25-34,N/A
+40,Ashley Brown,ashley.brown@email.com,555-555-8347,Arizona,West,United States,Phoenix,16537,Residential,Senior,2022-05-30,Active,76.92,3133.21,Invoice,SMS,English,55-64,N/A
+41,Ashley Clark,ashley.clark@business.com,555-555-8919,North Carolina,South,United States,Raleigh,41372,Business,Enterprise,2021-08-30,Churned,334.65,16676.72,Invoice,Phone,English,25-34,Retail
+42,Ashley Gonzalez,ashley.gonzalez@consulting.com,555-555-5452,California,West,United States,Sacramento,70989,Business,Mid-Market,2022-11-28,Active,272.45,9444.93,Invoice,Email,English,55-64,Technology
+43,Ashley Lee,ashley.lee@email.com,555-555-1964,New York,Northeast,United States,Brooklyn,98086,Residential,Individual,2024-06-10,Active,88.65,1418.4,Debit Card,SMS,English,65+,N/A
+44,Ashley Lopez,ashley.lopez@email.com,555-555-6548,Georgia,South,United States,Atlanta,54407,Residential,Premium,2021-10-30,Cancelled,138.26,6608.83,Credit Card,SMS,Korean,45-54,N/A
+45,Ashley Nguyen,ashley.nguyen@email.com,555-555-3765,Virginia,Southeast,United States,Richmond,88278,Residential,Premium,2021-11-17,Cancelled,135.53,6397.02,Bank Transfer,Phone,English,45-54,N/A
+46,Ashley Parker,ashley.parker@email.com,555-555-4636,South Carolina,Southeast,United States,Charleston,77290,Residential,Premium,2022-10-13,Active,150.97,5465.11,Invoice,SMS,English,55-64,N/A
+47,Ashley Scott,ashley.scott@email.com,555-555-2280,Georgia,South,United States,Savannah,68005,Residential,Individual,2023-07-25,Active,83.9,2240.13,Invoice,Phone,English,65+,N/A
+48,Ashley Torres,ashley.torres@email.com,555-555-2581,Montana,West,United States,Missoula,61697,Residential,Premium,2021-02-15,Active,173.56,9783.0,Debit Card,Email,Korean,55-64,N/A
+49,Ashley Wilson,ashley.wilson@email.com,555-555-2886,Michigan,Midwest,United States,Grand Rapids,24610,Residential,Premium,2022-03-31,Active,176.14,7527.05,Debit Card,Email,English,45-54,N/A
+50,Ashley Young,ashley.young@email.com,555-555-9950,Massachusetts,Northeast,United States,Boston,97893,Residential,Individual,2021-05-25,Active,77.77,4126.99,Debit Card,Email,English,35-44,N/A
+51,Betty Campbell,betty.campbell@email.com,555-555-1785,South Carolina,Southeast,United States,Columbia,61999,Residential,Senior,2023-07-21,Active,54.26,1455.98,Debit Card,Phone,English,65+,N/A
+52,Betty Carter,betty.carter@email.com,555-555-3505,California,West,United States,San Jose,68518,Residential,Premium,2023-10-28,Active,157.73,3711.91,Bank Transfer,Email,English,65+,N/A
+53,Betty Flores,betty.flores@email.com,555-555-8372,Alabama,Southeast,United States,Montgomery,54355,Residential,Individual,2021-12-14,Active,88.05,4076.71,Debit Card,SMS,English,45-54,N/A
+54,Betty Mitchell,betty.mitchell@corporate.com,555-555-2141,Virginia,Southeast,United States,Norfolk,25758,Business,Enterprise,2022-05-06,Cancelled,283.17,11760.99,Invoice,SMS,Korean,65+,Education
+55,Betty Nelson,betty.nelson@consulting.com,555-555-4446,Georgia,South,United States,Atlanta,16147,Business,Mid-Market,2022-07-22,Active,205.03,7989.34,Bank Transfer,Phone,English,65+,Professional Services
+56,Betty Torres,betty.torres@email.com,555-555-3716,Texas,South,United States,Dallas,39075,Residential,Premium,2021-08-21,Active,172.7,8658.03,Bank Transfer,SMS,English,45-54,N/A
+57,Brian Campbell,brian.campbell@email.com,555-555-6054,New York,Northeast,United States,Brooklyn,23168,Residential,Individual,2022-07-18,Active,95.92,3750.47,Credit Card,SMS,English,35-44,N/A
+58,Brian Gonzalez,brian.gonzalez@email.com,555-555-9072,Minnesota,Midwest,United States,Minneapolis,79147,Residential,Premium,2024-05-30,Active,167.01,2733.4,Bank Transfer,Phone,English,45-54,N/A
+59,Brian Moore,brian.moore@email.com,555-555-1963,Pennsylvania,Northeast,United States,Pittsburgh,27793,Residential,Senior,2024-06-04,Active,62.13,1006.51,Bank Transfer,Email,English,25-34,N/A
+60,Brian Scott,brian.scott@email.com,555-555-7650,Massachusetts,Northeast,United States,Cambridge,95312,Residential,Premium,2024-07-15,Active,174.53,2588.86,Bank Transfer,SMS,English,45-54,N/A
+61,Brian Wilson,brian.wilson@email.com,555-555-5502,Massachusetts,Northeast,United States,Cambridge,20055,Residential,Premium,2021-08-29,Active,148.24,7392.23,Credit Card,Phone,English,65+,N/A
+62,Brian Young,brian.young@email.com,555-555-8104,Alabama,Southeast,United States,Montgomery,30635,Residential,Individual,2023-04-02,Active,81.31,2479.95,Bank Transfer,Email,English,55-64,N/A
+63,Carol Campbell,carol.campbell@email.com,555-555-9686,Hawaii,West,United States,Honolulu,80444,Residential,Premium,2020-12-14,Active,168.37,9844.03,Bank Transfer,Phone,English,45-54,N/A
+64,Carol Gonzalez,carol.gonzalez@email.com,555-555-1425,Missouri,Midwest,United States,St. Louis,60070,Residential,Premium,2021-12-20,Churned,139.98,6453.08,Credit Card,Phone,English,35-44,N/A
+65,Carol Jackson,carol.jackson@email.com,555-555-3496,Georgia,South,United States,Savannah,56642,Residential,Premium,2021-01-02,Active,155.83,9012.17,Bank Transfer,Phone,Spanish,25-34,N/A
+66,Carol Lee,carol.lee@consulting.com,555-555-3972,Pennsylvania,Northeast,United States,Philadelphia,13335,Business,Mid-Market,2024-06-15,Active,257.47,4076.61,Bank Transfer,SMS,English,45-54,Education
+67,Carol Martin,carol.martin@email.com,555-555-9445,Texas,South,United States,Dallas,95568,Residential,Senior,2024-08-11,Active,45.06,627.84,Invoice,Email,English,45-54,N/A
+68,Carol Moore,carol.moore@email.com,555-555-6323,Michigan,Midwest,United States,Detroit,43547,Residential,Premium,2021-01-16,Cancelled,148.31,8508.05,Debit Card,Email,English,45-54,N/A
+69,Carol Robinson,carol.robinson@email.com,555-555-8253,New Jersey,Northeast,United States,Newark,12610,Residential,Premium,2023-01-28,Active,161.97,5285.62,Credit Card,Phone,English,55-64,N/A
+70,Carol Wilson,carol.wilson@techcorp.com,555-555-1660,Alabama,Southeast,United States,Montgomery,38141,Business,Mid-Market,2023-06-02,Active,227.89,6487.27,Invoice,Email,Spanish,25-34,Healthcare
+71,Carol Young,carol.young@email.com,555-555-7199,Florida,South,United States,Tampa,73368,Residential,Individual,2022-06-22,Active,88.18,3524.26,Bank Transfer,SMS,English,45-54,N/A
+72,Charles Clough,charles.clough@email.com,555-555-7391,Alabama,Southeast,United States,Montgomery,36424,Residential,Individual,2021-08-09,Active,80.72,4079.05,Bank Transfer,Email,English,35-44,N/A
+73,Charles Hill,charles.hill@email.com,555-555-6079,Arizona,West,United States,Phoenix,83730,Residential,Premium,2023-06-30,Active,155.4,4278.68,Bank Transfer,Email,English,45-54,N/A
+74,Charles Lopez,charles.lopez@email.com,555-555-5927,Hawaii,West,United States,Honolulu,80833,Residential,Premium,2023-06-09,Active,151.81,4286.1,Credit Card,Phone,English,35-44,N/A
+75,Christopher Lee,christopher.lee@consulting.com,555-555-7901,Virginia,Southeast,United States,Richmond,33506,Business,Mid-Market,2023-07-08,Active,210.42,5737.45,Invoice,SMS,English,45-54,Real Estate
+76,Cynthia Baker,cynthia.baker@email.com,555-555-1752,Illinois,Midwest,United States,Chicago,91701,Residential,Individual,2022-01-08,Active,82.99,3773.28,Credit Card,SMS,English,65+,N/A
+77,Cynthia Hall,cynthia.hall@email.com,555-555-1083,Georgia,South,United States,Savannah,19815,Residential,Premium,2021-11-23,Active,175.52,8249.44,Invoice,Email,English,45-54,N/A
+78,Cynthia Lee,cynthia.lee@email.com,555-555-5462,Oregon,West,United States,Eugene,58305,Residential,Individual,2023-11-17,Active,70.49,1611.87,Debit Card,Phone,English,35-44,N/A
+79,Cynthia Lopez,cynthia.lopez@email.com,555-555-4585,Nevada,West,United States,Reno,70128,Residential,Individual,2021-07-10,Active,90.05,4640.58,Invoice,SMS,English,65+,N/A
+80,Daniel Baker,daniel.baker@email.com,555-555-9954,Washington,West,United States,Spokane,40722,Residential,Senior,2022-08-02,Active,50.87,1963.58,Credit Card,Email,English,35-44,N/A
+81,Daniel Carter,daniel.carter@email.com,555-555-5087,Montana,West,United States,Missoula,37239,Residential,Individual,2024-05-06,Active,81.45,1398.23,Debit Card,Phone,English,55-64,N/A
+82,Daniel Flores,daniel.flores@email.com,555-555-8134,Georgia,South,United States,Atlanta,84462,Residential,Senior,2022-11-05,Active,45.98,1629.22,Debit Card,SMS,Spanish,45-54,N/A
+83,Daniel Garcia,daniel.garcia@email.com,555-555-1523,Ohio,Midwest,United States,Cleveland,53062,Residential,Individual,2024-07-30,Active,85.73,1228.8,Debit Card,Email,English,45-54,N/A
+84,Daniel King,daniel.king@email.com,555-555-9403,North Carolina,South,United States,Charlotte,22803,Residential,Individual,2024-03-16,Active,73.27,1382.36,Invoice,Email,English,25-34,N/A
+85,David Thompson,david.thompson@email.com,555-555-6615,Washington,West,United States,Seattle,23275,Residential,Individual,2021-03-09,Active,77.97,4337.73,Bank Transfer,Phone,English,35-44,N/A
+86,Donna Baker,donna.baker@email.com,555-555-3390,Arizona,West,United States,Phoenix,10448,Residential,Individual,2024-03-19,Active,80.71,1514.66,Bank Transfer,Phone,English,65+,N/A
+87,Donna Flores,donna.flores@corporate.com,555-555-6086,Colorado,West,United States,Colorado Springs,31653,Business,Mid-Market,2022-08-11,Active,211.32,8093.56,Invoice,Email,English,35-44,Manufacturing
+88,Donna Hall,donna.hall@corporate.com,555-555-2921,South Carolina,Southeast,United States,Charleston,67523,Business,Mid-Market,2022-08-01,Active,235.18,9085.79,Bank Transfer,Phone,English,35-44,Education
+89,Donna Lewis,donna.lewis@techcorp.com,555-555-4775,Colorado,West,United States,Denver,99520,Business,Enterprise,2020-11-10,Active,325.11,19376.56,Bank Transfer,Email,English,25-34,Technology
+90,Donna Rivera,donna.rivera@email.com,555-555-3513,California,West,United States,Sacramento,43200,Residential,Individual,2024-05-13,Active,87.8,1486.75,Invoice,Phone,English,65+,N/A
+91,Dorothy Green,dorothy.green@email.com,555-555-7887,Indiana,Midwest,United States,Indianapolis,35686,Residential,Premium,2023-08-19,Active,158.81,4107.89,Bank Transfer,Email,English,55-64,N/A
+92,Dorothy Jackson,dorothy.jackson@email.com,555-555-9864,Massachusetts,Northeast,United States,Cambridge,35299,Residential,Premium,2024-01-03,Active,141.05,3004.37,Bank Transfer,SMS,English,55-64,N/A
+93,Dorothy Roberts,dorothy.roberts@email.com,555-555-4967,New Jersey,Northeast,United States,Jersey City,29320,Residential,Individual,2021-04-21,Active,79.86,4328.41,Debit Card,Email,English,45-54,N/A
+94,Dorothy Wilson,dorothy.wilson@email.com,555-555-8505,South Carolina,Southeast,United States,Columbia,95324,Residential,Premium,2022-03-20,Active,139.2,5999.52,Credit Card,SMS,English,45-54,N/A
+95,Edward Anderson,edward.anderson@consulting.com,555-555-6946,North Carolina,South,United States,Charlotte,90789,Business,Mid-Market,2021-12-06,Active,207.11,9644.42,Invoice,SMS,English,45-54,Retail
+96,Edward Flores,edward.flores@email.com,555-555-8514,Georgia,South,United States,Savannah,56035,Residential,Individual,2021-04-16,Active,95.84,5210.5,Credit Card,Email,English,55-64,N/A
+97,Edward Jackson,edward.jackson@email.com,555-555-3572,Florida,South,United States,Tampa,87171,Residential,Premium,2024-02-04,Active,178.78,3617.32,Invoice,Email,English,45-54,N/A
+98,Edward Nelson,edward.nelson@email.com,555-555-3918,Nevada,West,United States,Reno,87687,Residential,Individual,2022-09-03,Active,97.46,3658.0,Bank Transfer,SMS,English,45-54,N/A
+99,Edward Parker,edward.parker@email.com,555-555-6877,South Carolina,Southeast,United States,Columbia,84970,Residential,Premium,2023-03-20,Churned,150.59,4658.25,Debit Card,Phone,Spanish,65+,N/A
+100,Edward Rivera,edward.rivera@email.com,555-555-2796,Georgia,South,United States,Savannah,37944,Residential,Senior,2023-10-17,Active,72.29,1727.73,Debit Card,SMS,English,55-64,N/A
+101,Edward Walker,edward.walker@techcorp.com,555-555-4463,North Carolina,South,United States,Charlotte,80101,Business,Enterprise,2021-08-23,Active,346.57,17351.6,Invoice,Email,English,35-44,Retail
+102,Emily Adams,emily.adams@email.com,555-555-8375,South Carolina,Southeast,United States,Columbia,68547,Residential,Individual,2022-03-11,Active,99.18,4304.41,Bank Transfer,SMS,English,45-54,N/A
+103,Emily Baker,emily.baker@email.com,555-555-6498,Georgia,South,United States,Savannah,66385,Residential,Individual,2024-09-25,Active,93.05,1156.92,Bank Transfer,Phone,English,65+,N/A
+104,Emily Carter,emily.carter@email.com,555-555-6127,Washington,West,United States,Tacoma,79341,Residential,Premium,2022-07-23,Cancelled,146.36,5698.28,Debit Card,Phone,English,25-34,N/A
+105,Emily Davis,emily.davis@email.com,555-555-4166,Alabama,Southeast,United States,Montgomery,53569,Residential,Individual,2021-11-19,Active,95.04,4479.55,Invoice,Email,English,65+,N/A
+106,Emily Jackson,emily.jackson@email.com,555-555-8083,Hawaii,West,United States,Honolulu,10954,Residential,Individual,2021-07-27,Active,87.45,4457.04,Debit Card,SMS,Chinese,25-34,N/A
+107,Emily Lewis,emily.lewis@email.com,555-555-2919,Pennsylvania,Northeast,United States,Philadelphia,74489,Residential,Senior,2022-02-08,Active,65.75,2921.49,Invoice,SMS,English,35-44,N/A
+108,Emily Martinez,emily.martinez@email.com,555-555-9753,Texas,South,United States,Austin,91616,Residential,Premium,2024-06-28,Active,137.55,2118.27,Invoice,Phone,Spanish,65+,N/A
+109,Emily Rivera,emily.rivera@corporate.com,555-555-8133,California,West,United States,San Diego,61710,Business,Enterprise,2021-06-19,Active,372.8,19472.59,Invoice,Phone,Spanish,35-44,Financial Services
+110,Emily Robinson,emily.robinson@email.com,555-555-4711,Oregon,West,United States,Eugene,45068,Residential,Premium,2020-10-13,Active,173.25,10487.4,Bank Transfer,Phone,English,45-54,N/A
+111,Emily Walker,emily.walker@email.com,555-555-1713,Hawaii,West,United States,Honolulu,72921,Residential,Individual,2021-04-05,Active,94.67,5181.6,Invoice,Phone,English,35-44,N/A
+112,Eric Allen,eric.allen@consulting.com,555-555-4694,Georgia,South,United States,Atlanta,27449,Business,Mid-Market,2021-05-30,Active,250.95,13275.25,Invoice,Email,English,55-64,Manufacturing
+113,Eric Anderson,eric.anderson@email.com,555-555-7714,South Carolina,Southeast,United States,Columbia,51024,Residential,Individual,2023-08-05,Active,83.98,2211.47,Debit Card,Email,English,25-34,N/A
+114,Eric Gonzalez,eric.gonzalez@email.com,555-555-7153,California,West,United States,San Jose,38888,Residential,Senior,2021-06-24,Active,64.53,3359.86,Debit Card,Email,English,55-64,N/A
+115,Eric King,eric.king@business.com,555-555-6023,Washington,West,United States,Spokane,13941,Business,Mid-Market,2023-08-14,Active,266.51,6938.14,Invoice,Email,English,65+,Manufacturing
+116,Eric Lewis,eric.lewis@consulting.com,555-555-7497,Alabama,Southeast,United States,Montgomery,10890,Business,Mid-Market,2023-11-20,Active,200.69,4569.04,Invoice,Phone,English,65+,Real Estate
+117,Eric Lopez,eric.lopez@email.com,555-555-5191,Texas,South,United States,Dallas,50908,Residential,Premium,2022-01-19,Active,137.49,6200.8,Bank Transfer,SMS,English,65+,N/A
+118,Eric Roberts,eric.roberts@email.com,555-555-4990,Pennsylvania,Northeast,United States,Philadelphia,36631,Residential,Individual,2024-05-11,Active,93.32,1586.44,Invoice,Email,English,55-64,N/A
+119,Eric Young,eric.young@email.com,555-555-1710,Texas,South,United States,Austin,63237,Residential,Individual,2021-09-22,Active,82.16,4031.32,Invoice,Email,English,55-64,N/A
+120,Frank Allen,frank.allen@email.com,555-555-9031,Hawaii,West,United States,Honolulu,58689,Residential,Individual,2022-02-16,Active,87.21,3851.77,Credit Card,Phone,English,45-54,N/A
+121,Frank Baker,frank.baker@email.com,555-555-4389,Colorado,West,United States,Colorado Springs,54096,Residential,Individual,2022-03-06,Active,97.18,4233.81,Bank Transfer,SMS,English,35-44,N/A
+122,Frank Gonzalez,frank.gonzalez@email.com,555-555-8149,Montana,West,United States,Billings,52402,Residential,Individual,2022-12-20,Active,93.63,3177.18,Debit Card,SMS,Spanish,25-34,N/A
+123,Frank Harris,frank.harris@business.com,555-555-8059,Massachusetts,Northeast,United States,Cambridge,47143,Business,Mid-Market,2021-11-21,Active,267.71,12600.22,Invoice,SMS,English,55-64,Healthcare
+124,Frank Jackson,frank.jackson@email.com,555-555-7969,Virginia,Southeast,United States,Norfolk,23848,Residential,Individual,2023-04-25,Active,96.01,2854.7,Bank Transfer,Phone,English,25-34,N/A
+125,Frank Lewis,frank.lewis@email.com,555-555-4641,Massachusetts,Northeast,United States,Cambridge,26264,Residential,Premium,2020-12-01,Active,156.72,9230.81,Invoice,SMS,English,65+,N/A
+126,Frank Lopez,frank.lopez@corporate.com,555-555-6781,Alabama,Southeast,United States,Birmingham,97799,Business,Enterprise,2021-03-03,Active,373.62,20860.45,Invoice,Email,English,65+,Education
+127,Frank Martinez,frank.martinez@email.com,555-555-4678,Minnesota,Midwest,United States,Minneapolis,24094,Residential,Premium,2021-05-23,Active,135.32,7190.0,Invoice,Email,English,65+,N/A
+128,Frank Mitchell,frank.mitchell@email.com,555-555-2772,Texas,South,United States,Houston,59589,Residential,Individual,2023-08-26,Active,98.59,2527.19,Credit Card,SMS,English,55-64,N/A
+129,Frank Nguyen,frank.nguyen@email.com,555-555-7019,Texas,South,United States,Dallas,28721,Residential,Senior,2020-12-08,Active,63.77,3741.17,Debit Card,Phone,English,25-34,N/A
+130,Frank Turner,frank.turner@email.com,555-555-2909,Hawaii,West,United States,Honolulu,12847,Residential,Premium,2022-08-28,Active,175.12,6607.86,Debit Card,Phone,English,65+,N/A
+131,Gary Campbell,gary.campbell@email.com,555-555-5845,Washington,West,United States,Tacoma,90260,Residential,Premium,2022-06-26,Active,152.48,6073.79,Bank Transfer,SMS,Spanish,25-34,N/A
+132,Gary Evans,gary.evans@email.com,555-555-5517,Alabama,Southeast,United States,Birmingham,92241,Residential,Premium,2023-11-23,Active,145.2,3291.2,Debit Card,Email,English,65+,N/A
+133,Gary Lee,gary.lee@email.com,555-555-8687,Alabama,Southeast,United States,Birmingham,88126,Residential,Individual,2023-11-28,Active,90.85,2044.12,Invoice,Email,English,35-44,N/A
+134,Gary Martinez,gary.martinez@email.com,555-555-9124,Massachusetts,Northeast,United States,Cambridge,99946,Residential,Premium,2022-10-08,Active,134.72,4899.32,Bank Transfer,Phone,English,35-44,N/A
+135,Gary Nelson,gary.nelson@email.com,555-555-8721,South Carolina,Southeast,United States,Columbia,47347,Residential,Individual,2022-06-01,Cancelled,89.06,3621.77,Bank Transfer,Email,English,35-44,N/A
+136,Gary Scott,gary.scott@email.com,555-555-5171,Hawaii,West,United States,Honolulu,91134,Residential,Individual,2024-03-26,Active,87.23,1616.66,Invoice,Email,English,25-34,N/A
+137,Gary Taylor,gary.taylor@corporate.com,555-555-4956,Montana,West,United States,Billings,59321,Business,Mid-Market,2021-10-23,Active,246.59,11844.54,Invoice,SMS,Chinese,35-44,Retail
+138,Gary Walker,gary.walker@email.com,555-555-3419,South Carolina,Southeast,United States,Charleston,22077,Residential,Individual,2022-02-25,Active,87.36,3832.19,Credit Card,SMS,English,55-64,N/A
+139,Gary Young,gary.young@email.com,555-555-1467,Arizona,West,United States,Phoenix,90914,Residential,Premium,2021-12-17,Active,160.56,7417.87,Invoice,SMS,English,65+,N/A
+140,George Harris,george.harris@email.com,555-555-1212,New Jersey,Northeast,United States,Newark,80036,Residential,Premium,2022-01-12,Active,155.98,7071.09,Invoice,Email,English,35-44,N/A
+141,George King,george.king@email.com,555-555-6969,Florida,South,United States,Orlando,78214,Residential,Individual,2023-10-17,Active,73.6,1759.04,Credit Card,Phone,English,45-54,N/A
+142,George Moore,george.moore@corporate.com,555-555-6407,Nevada,West,United States,Reno,74726,Business,Mid-Market,2023-07-17,Active,275.05,7417.18,Invoice,SMS,Spanish,65+,Professional Services
+143,George Robinson,george.robinson@email.com,555-555-2015,Texas,South,United States,Dallas,17635,Residential,Premium,2021-07-17,Active,162.55,8338.82,Invoice,SMS,English,45-54,N/A
+144,George Scott,george.scott@consulting.com,555-555-6210,South Carolina,Southeast,United States,Columbia,46157,Business,Enterprise,2021-08-14,Active,338.47,17047.61,Bank Transfer,Phone,English,55-64,Professional Services
+145,George Turner,george.turner@email.com,555-555-7382,New Jersey,Northeast,United States,Jersey City,52169,Residential,Individual,2022-10-05,Active,78.76,2872.11,Credit Card,Phone,English,65+,N/A
+146,George Wilson,george.wilson@email.com,555-555-3254,Pennsylvania,Northeast,United States,Philadelphia,99252,Residential,Premium,2022-07-15,Active,162.39,6365.69,Bank Transfer,Email,English,25-34,N/A
+147,George Wright,george.wright@email.com,555-555-7265,Alabama,Southeast,United States,Montgomery,70926,Residential,Premium,2024-04-01,Churned,168.61,3091.18,Invoice,SMS,English,55-64,N/A
+148,Helen Carter,helen.carter@email.com,555-555-1026,Massachusetts,Northeast,United States,Cambridge,87563,Residential,Premium,2023-12-30,Active,147.34,3157.99,Invoice,SMS,English,65+,N/A
+149,Helen Flores,helen.flores@email.com,555-555-7626,North Carolina,South,United States,Charlotte,85068,Residential,Premium,2022-07-23,Active,165.08,6427.11,Invoice,Phone,Korean,35-44,N/A
+150,Helen Harris,helen.harris@email.com,555-555-4636,California,West,United States,San Diego,17000,Residential,Premium,2022-10-12,Active,164.37,5955.67,Credit Card,Email,English,25-34,N/A
+151,Helen Jackson,helen.jackson@email.com,555-555-4012,Massachusetts,Northeast,United States,Boston,86618,Residential,Premium,2023-08-03,Active,146.7,3872.88,Credit Card,Phone,English,65+,N/A
+152,Helen Robinson,helen.robinson@email.com,555-555-6093,Oregon,West,United States,Portland,94657,Residential,Premium,2023-11-28,Active,173.21,3897.23,Debit Card,Phone,English,65+,N/A
+153,Helen Young,helen.young@email.com,555-555-8604,New Jersey,Northeast,United States,Jersey City,77493,Residential,Premium,2021-12-29,Active,170.55,7811.19,Invoice,SMS,English,35-44,N/A
+154,Jacob Campbell,jacob.campbell@email.com,555-555-9954,Washington,West,United States,Tacoma,67972,Residential,Individual,2023-07-01,Active,87.81,2414.78,Debit Card,Phone,English,45-54,N/A
+155,Jacob Flores,jacob.flores@email.com,555-555-6338,Montana,West,United States,Billings,99324,Residential,Premium,2021-05-05,Active,136.92,7357.17,Invoice,Phone,English,55-64,N/A
+156,Jacob Green,jacob.green@email.com,555-555-8852,Georgia,South,United States,Savannah,33780,Residential,Individual,2020-11-23,Active,84.7,5011.42,Bank Transfer,Email,English,55-64,N/A
+157,Jacob Hill,jacob.hill@email.com,555-555-9476,South Carolina,Southeast,United States,Columbia,60782,Residential,Individual,2024-07-24,Active,79.61,1157.0,Invoice,Phone,English,55-64,N/A
+158,Jacob King,jacob.king@email.com,555-555-6109,Oregon,West,United States,Portland,28602,Residential,Individual,2020-10-29,Active,86.23,5173.8,Bank Transfer,Email,English,35-44,N/A
+159,Jacob Lee,jacob.lee@email.com,555-555-9853,Illinois,Midwest,United States,Chicago,65273,Residential,Premium,2023-12-28,Active,142.46,3062.89,Invoice,Email,English,45-54,N/A
+160,Jacob Martin,jacob.martin@email.com,555-555-5403,Alabama,Southeast,United States,Birmingham,88549,Residential,Senior,2021-06-13,Cancelled,58.82,3084.13,Bank Transfer,SMS,English,35-44,N/A
+161,Jacob Torres,jacob.torres@email.com,555-555-5765,California,West,United States,San Jose,86253,Residential,Individual,2022-10-08,Cancelled,75.41,2742.41,Debit Card,Email,English,55-64,N/A
+162,Jacob Young,jacob.young@email.com,555-555-5947,Minnesota,Midwest,United States,St. Paul,32795,Residential,Individual,2022-05-03,Active,92.3,3842.76,Credit Card,SMS,English,25-34,N/A
+163,James Martinez,james.martinez@email.com,555-555-4112,Minnesota,Midwest,United States,Minneapolis,48576,Residential,Premium,2022-02-17,Active,130.46,5757.63,Debit Card,Email,English,55-64,N/A
+164,Jason Baker,jason.baker@email.com,555-555-6147,Georgia,South,United States,Atlanta,18118,Residential,Individual,2024-04-25,Active,84.11,1474.73,Debit Card,Email,English,65+,N/A
+165,Jason Evans,jason.evans@corporate.com,555-555-3061,South Carolina,Southeast,United States,Columbia,72167,Business,Enterprise,2022-01-13,Active,336.28,15233.48,Bank Transfer,Phone,English,45-54,Healthcare
+166,Jason Lewis,jason.lewis@email.com,555-555-9924,Arizona,West,United States,Phoenix,72091,Residential,Individual,2021-06-23,Active,70.87,3692.33,Bank Transfer,Email,English,45-54,N/A
+167,Jason Lopez,jason.lopez@email.com,555-555-3669,Arizona,West,United States,Phoenix,94900,Residential,Premium,2021-10-05,Active,149.48,7269.71,Debit Card,SMS,English,55-64,N/A
+168,Jason Phillips,jason.phillips@email.com,555-555-3137,New York,Northeast,United States,Buffalo,64239,Residential,Premium,2020-12-21,Active,152.63,8888.15,Credit Card,SMS,English,65+,N/A
+169,Jason Roberts,jason.roberts@email.com,555-555-9466,Nevada,West,United States,Reno,12493,Residential,Premium,2023-07-02,Active,139.76,3838.74,Bank Transfer,Phone,English,35-44,N/A
+170,Jason Torres,jason.torres@email.com,555-555-7781,New York,Northeast,United States,Brooklyn,98836,Residential,Individual,2024-07-25,Active,87.37,1266.87,Bank Transfer,SMS,English,35-44,N/A
+171,Jason Wilson,jason.wilson@email.com,555-555-7865,Hawaii,West,United States,Honolulu,45988,Residential,Individual,2020-12-30,Active,93.15,5396.49,Bank Transfer,Phone,English,35-44,N/A
+172,Jeffrey Anderson,jeffrey.anderson@email.com,555-555-5202,Pennsylvania,Northeast,United States,Pittsburgh,13819,Residential,Individual,2021-03-23,Active,76.01,4193.22,Debit Card,SMS,English,45-54,N/A
+173,Jeffrey Green,jeffrey.green@email.com,555-555-3147,Colorado,West,United States,Denver,66902,Residential,Individual,2024-03-17,Active,98.97,1863.93,Invoice,Email,English,65+,N/A
+174,Jeffrey Martin,jeffrey.martin@email.com,555-555-6315,Montana,West,United States,Missoula,58414,Residential,Individual,2024-05-26,Active,88.15,1454.48,Bank Transfer,Phone,English,55-64,N/A
+175,Jeffrey Robinson,jeffrey.robinson@email.com,555-555-4901,Massachusetts,Northeast,United States,Boston,92926,Residential,Senior,2022-08-17,Active,76.15,2901.32,Invoice,SMS,English,45-54,N/A
+176,Jeffrey Scott,jeffrey.scott@email.com,555-555-4948,Virginia,Southeast,United States,Richmond,80764,Residential,Premium,2024-02-25,Active,139.42,2723.34,Credit Card,Email,English,25-34,N/A
+177,Jeffrey Wright,jeffrey.wright@email.com,555-555-7098,Washington,West,United States,Tacoma,68617,Residential,Premium,2020-12-20,Active,156.2,9101.25,Bank Transfer,Phone,English,55-64,N/A
+178,Jennifer Adams,jennifer.adams@email.com,555-555-2896,Illinois,Midwest,United States,Springfield,36691,Residential,Premium,2021-11-10,Churned,164.3,7793.3,Debit Card,Email,English,65+,N/A
+179,Jennifer Evans,jennifer.evans@email.com,555-555-1013,Michigan,Midwest,United States,Grand Rapids,47206,Residential,Individual,2022-07-30,Active,71.31,2759.7,Bank Transfer,SMS,English,25-34,N/A
+180,Jennifer Hill,jennifer.hill@email.com,555-555-7073,Alabama,Southeast,United States,Birmingham,10056,Residential,Premium,2024-06-02,Active,161.52,2627.39,Credit Card,Email,English,35-44,N/A
+181,Jennifer Martin,jennifer.martin@email.com,555-555-1902,Hawaii,West,United States,Honolulu,53623,Residential,Premium,2024-04-23,Active,160.64,2827.26,Debit Card,SMS,English,35-44,N/A
+182,Jennifer Robinson,jennifer.robinson@email.com,555-555-3457,South Carolina,Southeast,United States,Charleston,86425,Residential,Individual,2022-06-12,Active,74.6,3006.38,Bank Transfer,SMS,English,55-64,N/A
+183,Jennifer Scott,jennifer.scott@email.com,555-555-8460,Pennsylvania,Northeast,United States,Philadelphia,30849,Residential,Premium,2022-12-13,Active,160.78,5493.32,Debit Card,SMS,English,45-54,N/A
+184,Jessica Carter,jessica.carter@email.com,555-555-9323,North Carolina,South,United States,Charlotte,85298,Residential,Senior,2023-04-20,Active,67.24,2010.48,Debit Card,Phone,English,45-54,N/A
+185,Jessica Nguyen,jessica.nguyen@email.com,555-555-4635,Nevada,West,United States,Las Vegas,96255,Residential,Individual,2021-12-21,Active,70.98,3269.81,Debit Card,SMS,English,65+,N/A
+186,Jessica Walker,jessica.walker@email.com,555-555-8958,New York,Northeast,United States,Albany,66115,Residential,Individual,2022-09-20,Active,91.54,3383.93,Invoice,Email,English,45-54,N/A
+187,Jessica Wright,jessica.wright@email.com,555-555-6072,Virginia,Southeast,United States,Norfolk,43599,Residential,Individual,2024-04-19,Active,78.6,1393.84,Credit Card,SMS,English,45-54,N/A
+188,John Smith,john.smith@email.com,555-555-1516,New York,Northeast,United States,Brooklyn,54706,Residential,Premium,2022-02-19,Active,145.47,6410.38,Credit Card,SMS,English,65+,N/A
+189,Jose Adams,jose.adams@email.com,555-555-3166,Arizona,West,United States,Tucson,37760,Residential,Individual,2021-08-06,Active,84.25,4265.86,Credit Card,Phone,English,65+,N/A
+190,Jose Campbell,jose.campbell@email.com,555-555-9421,Nevada,West,United States,Las Vegas,67223,Residential,Individual,2024-03-29,Active,88.01,1622.32,Invoice,Email,English,55-64,N/A
+191,Jose Clark,jose.clark@email.com,555-555-6551,Pennsylvania,Northeast,United States,Philadelphia,72357,Residential,Individual,2021-08-20,Active,97.25,4878.71,Credit Card,Email,English,25-34,N/A
+192,Jose Nelson,jose.nelson@email.com,555-555-2170,North Carolina,South,United States,Charlotte,45946,Residential,Individual,2022-12-12,Active,76.65,2621.43,Credit Card,Email,English,65+,N/A
+193,Jose Nguyen,jose.nguyen@email.com,555-555-6874,New York,Northeast,United States,New York,12748,Residential,Individual,2022-07-17,Active,96.84,3789.67,Credit Card,Phone,English,55-64,N/A
+194,Jose Wright,jose.wright@business.com,555-555-9599,Hawaii,West,United States,Honolulu,22732,Business,Enterprise,2021-06-10,Active,344.23,18083.55,Bank Transfer,SMS,English,55-64,Real Estate
+195,Joseph Campbell,joseph.campbell@email.com,555-555-8552,Colorado,West,United States,Denver,68684,Residential,Senior,2022-02-27,Active,74.11,3246.02,Invoice,Email,English,35-44,N/A
+196,Joseph Carter,joseph.carter@email.com,555-555-1153,Pennsylvania,Northeast,United States,Philadelphia,73161,Residential,Individual,2022-02-24,Active,98.26,4313.61,Debit Card,Phone,English,55-64,N/A
+197,Joseph Green,joseph.green@email.com,555-555-2735,Hawaii,West,United States,Honolulu,47167,Residential,Individual,2021-05-11,Active,79.36,4248.41,Bank Transfer,Phone,English,65+,N/A
+198,Joseph Lewis,joseph.lewis@email.com,555-555-5205,New Jersey,Northeast,United States,Jersey City,75204,Residential,Individual,2021-05-24,Active,71.06,3773.29,Credit Card,SMS,English,45-54,N/A
+199,Joseph Moore,joseph.moore@email.com,555-555-4333,Colorado,West,United States,Denver,47437,Residential,Individual,2023-08-24,Active,89.88,2309.92,Bank Transfer,Email,English,25-34,N/A
+200,Joseph Nguyen,joseph.nguyen@email.com,555-555-4927,Massachusetts,Northeast,United States,Cambridge,49785,Residential,Individual,2021-02-01,Active,99.27,5641.85,Credit Card,SMS,English,45-54,N/A
+201,Joseph Parker,joseph.parker@email.com,555-555-6182,North Carolina,South,United States,Charlotte,38890,Residential,Individual,2023-01-30,Active,72.75,2369.23,Invoice,Phone,English,35-44,N/A
+202,Joseph Scott,joseph.scott@email.com,555-555-4772,Florida,South,United States,Miami,95854,Residential,Individual,2021-08-14,Active,72.15,3633.96,Credit Card,Email,English,55-64,N/A
+203,Josh Milligan,josh.milligan@email.com,555-555-7506,Colorado,West,United States,Denver,69307,Residential,Senior,2023-09-24,Active,75.7,1867.27,Debit Card,SMS,English,25-34,N/A
+204,Karen Clark,karen.clark@email.com,555-555-9554,Montana,West,United States,Missoula,89300,Residential,Premium,2023-10-24,Active,132.69,3140.33,Credit Card,Email,English,55-64,N/A
+205,Karen King,karen.king@email.com,555-555-8987,North Carolina,South,United States,Raleigh,74931,Residential,Individual,2021-07-14,Active,90.82,4668.15,Debit Card,Phone,Chinese,35-44,N/A
+206,Karen Mitchell,karen.mitchell@corporate.com,555-555-4951,Virginia,Southeast,United States,Richmond,49944,Business,Enterprise,2024-03-21,Active,382.69,7156.3,Invoice,Phone,English,55-64,Manufacturing
+207,Karen Nelson,karen.nelson@consulting.com,555-555-3780,Virginia,Southeast,United States,Norfolk,58030,Business,Enterprise,2024-08-12,Cancelled,379.35,5272.97,Invoice,Phone,English,35-44,Professional Services
+208,Kathleen Allen,kathleen.allen@email.com,555-555-5847,Illinois,Midwest,United States,Chicago,63454,Residential,Senior,2023-01-22,Active,68.54,2250.4,Debit Card,SMS,English,35-44,N/A
+209,Kathleen Campbell,kathleen.campbell@email.com,555-555-9001,Oregon,West,United States,Portland,21881,Residential,Individual,2023-12-20,Active,97.72,2127.04,Debit Card,SMS,English,35-44,N/A
+210,Kathleen Flores,kathleen.flores@email.com,555-555-9561,Alabama,Southeast,United States,Montgomery,69220,Residential,Premium,2021-04-10,Active,164.24,8962.03,Bank Transfer,Email,English,55-64,N/A
+211,Kathleen Mitchell,kathleen.mitchell@email.com,555-555-1307,Oregon,West,United States,Portland,81042,Residential,Premium,2021-05-03,Active,147.96,7960.25,Invoice,SMS,English,55-64,N/A
+212,Kathleen Robinson,kathleen.robinson@email.com,555-555-1027,Colorado,West,United States,Denver,90130,Residential,Individual,2021-04-21,Active,93.85,5086.67,Debit Card,SMS,English,55-64,N/A
+213,Kelly Smith,kelly.smith@email.com,555-555-7228,Ohio,Midwest,United States,Cincinnati,67542,Residential,Premium,2021-02-17,Active,143.39,8072.86,Bank Transfer,SMS,English,65+,N/A
+214,Kenneth Lopez,kenneth.lopez@email.com,555-555-7684,Virginia,Southeast,United States,Norfolk,10829,Residential,Individual,2022-10-10,Active,96.73,3511.3,Debit Card,Email,English,45-54,N/A
+215,Kenneth Parker,kenneth.parker@email.com,555-555-6842,Hawaii,West,United States,Honolulu,19652,Residential,Individual,2022-12-17,Active,75.39,2565.77,Debit Card,Email,English,55-64,N/A
+216,Kevin Clark,kevin.clark@email.com,555-555-3416,Colorado,West,United States,Denver,16786,Residential,Premium,2023-07-30,Active,165.92,4402.41,Credit Card,Email,English,25-34,N/A
+217,Kevin Gonzalez,kevin.gonzalez@email.com,555-555-2763,Alabama,Southeast,United States,Montgomery,74040,Residential,Senior,2024-09-14,Active,69.55,890.24,Debit Card,SMS,English,65+,N/A
+218,Kevin Hill,kevin.hill@email.com,555-555-7412,California,West,United States,San Diego,57296,Residential,Individual,2022-06-24,Active,73.86,2947.01,Credit Card,Email,English,55-64,N/A
+219,Kevin Jackson,kevin.jackson@email.com,555-555-1129,Montana,West,United States,Missoula,66461,Residential,Individual,2021-03-09,Active,99.81,5552.76,Debit Card,Email,English,65+,N/A
+220,Kevin Lee,kevin.lee@email.com,555-555-2135,Georgia,South,United States,Savannah,47761,Residential,Premium,2022-02-21,Active,153.34,6746.96,Credit Card,Phone,English,55-64,N/A
+221,Kevin Lewis,kevin.lewis@email.com,555-555-6791,Arizona,West,United States,Phoenix,55428,Residential,Premium,2022-06-26,Active,142.29,5667.89,Bank Transfer,Email,English,55-64,N/A
+222,Kevin Martin,kevin.martin@email.com,555-555-3068,Georgia,South,United States,Atlanta,13582,Residential,Individual,2022-12-05,Active,94.97,3270.13,Bank Transfer,Email,English,55-64,N/A
+223,Kevin Nguyen,kevin.nguyen@email.com,555-555-1304,Oregon,West,United States,Eugene,75310,Residential,Individual,2024-06-25,Active,70.83,1097.87,Bank Transfer,Email,English,65+,N/A
+224,Kevin Phillips,kevin.phillips@email.com,555-555-1137,Montana,West,United States,Billings,60882,Residential,Individual,2021-02-14,Active,77.82,4389.05,Credit Card,SMS,Chinese,55-64,N/A
+225,Kevin Robinson,kevin.robinson@email.com,555-555-8871,Texas,South,United States,Houston,24971,Residential,Individual,2021-09-26,Active,75.9,3714.04,Credit Card,Phone,English,45-54,N/A
+226,Kevin Taylor,kevin.taylor@email.com,555-555-2076,Colorado,West,United States,Colorado Springs,37886,Residential,Individual,2022-07-18,Active,88.08,3443.93,Debit Card,Email,English,45-54,N/A
+227,Kevin Walker,kevin.walker@techcorp.com,555-555-9450,Minnesota,Midwest,United States,Minneapolis,12179,Business,Enterprise,2021-08-21,Active,394.87,19796.15,Invoice,Email,Spanish,45-54,Technology
+228,Kevin Wilson,kevin.wilson@email.com,555-555-6961,New Jersey,Northeast,United States,Newark,21309,Residential,Senior,2024-04-24,Active,69.49,1220.71,Bank Transfer,Email,English,55-64,N/A
+229,Kevin Wright,kevin.wright@email.com,555-555-2705,Georgia,South,United States,Savannah,33524,Residential,Individual,2024-03-30,Cancelled,92.45,1701.08,Debit Card,SMS,English,55-64,N/A
+230,Kimberly Flores,kimberly.flores@email.com,555-555-7620,South Carolina,Southeast,United States,Charleston,36478,Residential,Premium,2023-08-03,Active,141.66,3739.82,Invoice,SMS,English,25-34,N/A
+231,Kimberly Harris,kimberly.harris@email.com,555-555-1695,Texas,South,United States,Dallas,58500,Residential,Individual,2023-06-13,Active,91.24,2563.84,Credit Card,Email,English,65+,N/A
+232,Kimberly Lewis,kimberly.lewis@email.com,555-555-6710,Washington,West,United States,Spokane,96420,Residential,Senior,2024-04-03,Active,49.47,903.65,Credit Card,SMS,English,45-54,N/A
+233,Kimberly Mitchell,kimberly.mitchell@email.com,555-555-5502,Oregon,West,United States,Eugene,58717,Residential,Individual,2023-02-06,Active,94.22,3046.45,Bank Transfer,SMS,English,45-54,N/A
+234,Kimberly Nguyen,kimberly.nguyen@consulting.com,555-555-4754,Hawaii,West,United States,Honolulu,88991,Business,Enterprise,2023-02-06,Active,285.95,9245.72,Bank Transfer,Phone,English,45-54,Education
+235,Kimberly Parker,kimberly.parker@email.com,555-555-6360,New Jersey,Northeast,United States,Newark,79374,Residential,Individual,2022-04-20,Active,97.3,4093.09,Invoice,Email,English,45-54,N/A
+236,Larry Adams,larry.adams@email.com,555-555-2538,Pennsylvania,Northeast,United States,Pittsburgh,93213,Residential,Premium,2020-10-21,Active,168.87,10177.23,Bank Transfer,Phone,English,35-44,N/A
+237,Larry Clark,larry.clark@email.com,555-555-5933,Florida,South,United States,Tampa,43352,Residential,Individual,2023-05-21,Active,77.91,2249.0,Bank Transfer,SMS,English,55-64,N/A
+238,Larry Evans,larry.evans@email.com,555-555-3112,Oregon,West,United States,Portland,45529,Residential,Senior,2024-04-19,Active,51.96,921.42,Invoice,SMS,English,65+,N/A
+239,Larry Flores,larry.flores@email.com,555-555-8511,Nevada,West,United States,Reno,33513,Residential,Individual,2021-07-22,Active,82.77,4232.31,Invoice,Email,Korean,65+,N/A
+240,Larry King,larry.king@email.com,555-555-5782,California,West,United States,San Jose,40900,Residential,Individual,2024-01-29,Active,76.92,1571.73,Invoice,Email,English,25-34,N/A
+241,Larry Lopez,larry.lopez@email.com,555-555-6644,Washington,West,United States,Seattle,39578,Residential,Individual,2023-09-18,Active,89.09,2215.37,Debit Card,Email,English,35-44,N/A
+242,Larry Martinez,larry.martinez@corporate.com,555-555-1914,Alabama,Southeast,United States,Montgomery,39571,Business,Mid-Market,2023-03-02,Active,269.88,8510.22,Bank Transfer,Phone,English,35-44,Retail
+243,Larry Parker,larry.parker@email.com,555-555-6105,North Carolina,South,United States,Charlotte,65825,Residential,Individual,2023-10-14,Active,91.33,2191.92,Credit Card,SMS,English,65+,N/A
+244,Larry Phillips,larry.phillips@email.com,555-555-5568,Pennsylvania,Northeast,United States,Pittsburgh,27810,Residential,Individual,2021-05-10,Active,70.37,3769.49,Invoice,SMS,English,65+,N/A
+245,Larry Rivera,larry.rivera@corporate.com,555-555-5330,Arizona,West,United States,Tucson,75554,Business,Enterprise,2023-11-05,Active,355.81,8278.51,Invoice,SMS,English,55-64,Healthcare
+246,Larry Roberts,larry.roberts@email.com,555-555-9420,Nevada,West,United States,Reno,90084,Residential,Premium,2022-09-18,Active,176.86,6549.72,Bank Transfer,Email,English,25-34,N/A
+247,Larry Taylor,larry.taylor@email.com,555-555-1441,Arizona,West,United States,Tucson,12209,Residential,Individual,2023-05-18,Active,79.03,2289.24,Bank Transfer,SMS,English,65+,N/A
+248,Lisa Johnson,lisa.johnson@email.com,555-555-5274,Indiana,Midwest,United States,Fort Wayne,74855,Residential,Premium,2023-03-04,Active,146.68,4615.53,Invoice,SMS,English,45-54,N/A
+249,Lisa King,lisa.king@email.com,555-555-7727,California,West,United States,San Diego,82809,Residential,Individual,2023-06-13,Active,87.52,2459.31,Invoice,Email,English,65+,N/A
+250,Lisa Roberts,lisa.roberts@email.com,555-555-7759,Texas,South,United States,Dallas,34686,Residential,Individual,2024-05-25,Churned,93.19,1540.74,Credit Card,Phone,English,25-34,N/A
+251,Lisa Turner,lisa.turner@business.com,555-555-7703,North Carolina,South,United States,Raleigh,79569,Business,Mid-Market,2023-11-03,Active,229.61,5357.57,Bank Transfer,SMS,English,25-34,Financial Services
+252,Margaret Campbell,margaret.campbell@email.com,555-555-5879,Virginia,Southeast,United States,Richmond,82384,Residential,Individual,2022-11-01,Active,97.04,3451.39,Debit Card,SMS,English,45-54,N/A
+253,Margaret Green,margaret.green@email.com,555-555-2284,Arizona,West,United States,Phoenix,97580,Residential,Premium,2023-12-14,Active,157.34,3456.24,Bank Transfer,Phone,English,25-34,N/A
+254,Margaret Harris,margaret.harris@email.com,555-555-7584,Texas,South,United States,Dallas,17517,Residential,Individual,2022-12-04,Active,99.96,3445.29,Bank Transfer,SMS,English,45-54,N/A
+255,Margaret Jackson,margaret.jackson@consulting.com,555-555-7711,Arizona,West,United States,Tucson,25338,Business,Mid-Market,2023-11-12,Active,227.39,5237.55,Invoice,Phone,English,55-64,Education
+256,Margaret Phillips,margaret.phillips@email.com,555-555-7587,New York,Northeast,United States,New York,72106,Residential,Individual,2021-03-28,Cancelled,76.82,4225.1,Invoice,SMS,English,25-34,N/A
+257,Margaret Wilson,margaret.wilson@email.com,555-555-2250,Massachusetts,Northeast,United States,Cambridge,87004,Residential,Individual,2024-06-16,Active,87.21,1377.92,Invoice,Phone,Korean,55-64,N/A
+258,Maria Allen,maria.allen@email.com,555-555-3413,Montana,West,United States,Billings,74207,Residential,Premium,2022-07-12,Active,135.71,5333.4,Credit Card,SMS,English,45-54,N/A
+259,Maria Anderson,maria.anderson@corporate.com,555-555-7592,South Carolina,Southeast,United States,Columbia,56540,Business,Mid-Market,2024-01-13,Active,229.61,4814.16,Invoice,Email,English,25-34,Real Estate
+260,Maria Evans,maria.evans@email.com,555-555-6946,Virginia,Southeast,United States,Norfolk,10879,Residential,Premium,2021-11-08,Active,145.98,6934.05,Credit Card,Phone,English,25-34,N/A
+261,Maria Flores,maria.flores@email.com,555-555-7587,Pennsylvania,Northeast,United States,Philadelphia,57776,Residential,Senior,2023-02-04,Active,52.38,1697.11,Bank Transfer,SMS,English,25-34,N/A
+262,Maria Harris,maria.harris@email.com,555-555-3101,Illinois,Midwest,United States,Chicago,33137,Residential,Premium,2022-03-31,Active,139.65,5967.71,Invoice,SMS,English,65+,N/A
+263,Maria Robinson,maria.robinson@email.com,555-555-5082,Florida,South,United States,Jacksonville,83022,Residential,Individual,2023-03-15,Active,86.81,2699.79,Invoice,SMS,English,35-44,N/A
+264,Maria Torres,maria.torres@email.com,555-555-3798,Michigan,Midwest,United States,Grand Rapids,71256,Residential,Individual,2023-07-06,Churned,95.18,2601.59,Credit Card,Phone,English,45-54,N/A
+265,Maria Walker,maria.walker@email.com,555-555-2338,California,West,United States,San Francisco,84232,Residential,Premium,2021-08-09,Active,130.84,6611.78,Credit Card,SMS,English,25-34,N/A
+266,Mark Allen,mark.allen@email.com,555-555-3880,Virginia,Southeast,United States,Richmond,52093,Residential,Senior,2022-07-13,Churned,72.48,2846.05,Invoice,Email,English,35-44,N/A
+267,Mark Campbell,mark.campbell@email.com,555-555-7350,Montana,West,United States,Billings,12802,Residential,Individual,2024-05-28,Active,98.64,1620.98,Invoice,SMS,English,55-64,N/A
+268,Mark Flores,mark.flores@email.com,555-555-7919,North Carolina,South,United States,Raleigh,97333,Residential,Individual,2022-10-13,Active,97.42,3526.6,Bank Transfer,SMS,Korean,45-54,N/A
+269,Mark Hall,mark.hall@email.com,555-555-1245,Florida,South,United States,Miami,66186,Residential,Senior,2021-03-05,Active,58.37,3255.1,Invoice,Email,English,65+,N/A
+270,Mark Martin,mark.martin@email.com,555-555-3076,Hawaii,West,United States,Honolulu,76611,Residential,Individual,2023-11-14,Active,82.3,1890.16,Bank Transfer,Phone,English,65+,N/A
+271,Mark Scott,mark.scott@email.com,555-555-2334,Oregon,West,United States,Portland,55903,Residential,Senior,2021-03-12,Active,58.62,3255.36,Bank Transfer,SMS,English,25-34,N/A
+272,Mark Wright,mark.wright@email.com,555-555-6945,Massachusetts,Northeast,United States,Boston,15912,Residential,Premium,2022-12-09,Active,132.66,4550.24,Debit Card,Email,English,25-34,N/A
+273,Matthew Campbell,matthew.campbell@techcorp.com,555-555-5669,Washington,West,United States,Seattle,80616,Business,Enterprise,2022-02-24,Active,344.95,15143.3,Bank Transfer,Email,English,35-44,Education
+274,Matthew Gonzalez,matthew.gonzalez@email.com,555-555-7884,Massachusetts,Northeast,United States,Boston,93453,Residential,Premium,2022-04-12,Active,165.63,7011.67,Credit Card,Email,English,25-34,N/A
+275,Matthew Hall,matthew.hall@techcorp.com,555-555-9735,Nevada,West,United States,Las Vegas,10764,Business,Mid-Market,2024-08-23,Active,275.86,3733.31,Invoice,SMS,English,45-54,Manufacturing
+276,Matthew Jackson,matthew.jackson@techcorp.com,555-555-4246,Texas,South,United States,San Antonio,15205,Business,Enterprise,2024-04-24,Active,377.22,6626.5,Invoice,SMS,English,25-34,Education
+277,Matthew Lee,matthew.lee@email.com,555-555-7550,North Carolina,South,United States,Charlotte,75971,Residential,Premium,2024-05-19,Active,170.57,2854.2,Invoice,Email,English,65+,N/A
+278,Matthew Mitchell,matthew.mitchell@email.com,555-555-9192,Nevada,West,United States,Reno,29713,Residential,Individual,2021-05-09,Active,92.13,4938.17,Credit Card,SMS,English,45-54,N/A
+279,Matthew Parker,matthew.parker@corporate.com,555-555-1246,Oregon,West,United States,Portland,58724,Business,Mid-Market,2021-11-05,Active,236.61,11262.64,Invoice,Phone,English,25-34,Manufacturing
+280,Matthew Rivera,matthew.rivera@email.com,555-555-6575,South Carolina,Southeast,United States,Charleston,35370,Residential,Senior,2024-05-07,Active,63.96,1095.85,Credit Card,SMS,English,35-44,N/A
+281,Matthew Walker,matthew.walker@email.com,555-555-9630,South Carolina,Southeast,United States,Charleston,53249,Residential,Individual,2024-02-28,Active,95.73,1860.35,Invoice,Email,English,65+,N/A
+282,Matthew Wilson,matthew.wilson@email.com,555-555-1439,Arizona,West,United States,Phoenix,66918,Residential,Individual,2021-05-03,Active,87.89,4728.48,Debit Card,SMS,English,25-34,N/A
+283,Melissa Adams,melissa.adams@email.com,555-555-1716,Virginia,Southeast,United States,Norfolk,88066,Residential,Individual,2024-03-01,Active,87.46,1693.81,Credit Card,Email,English,45-54,N/A
+284,Melissa Anderson,melissa.anderson@email.com,555-555-2122,North Carolina,South,United States,Raleigh,43496,Residential,Premium,2024-03-18,Active,172.42,3241.5,Credit Card,Email,English,55-64,N/A
+285,Melissa Carter,melissa.carter@email.com,555-555-4486,Florida,South,United States,Jacksonville,57209,Residential,Premium,2024-09-27,Active,161.04,1991.53,Invoice,SMS,English,25-34,N/A
+286,Melissa Clark,melissa.clark@email.com,555-555-2507,Washington,West,United States,Spokane,68642,Residential,Individual,2023-07-04,Active,92.76,2541.62,Debit Card,SMS,English,25-34,N/A
+287,Melissa Flores,melissa.flores@email.com,555-555-2038,Georgia,South,United States,Savannah,75882,Residential,Premium,2022-02-25,Active,174.69,7663.07,Invoice,Email,English,25-34,N/A
+288,Melissa Nguyen,melissa.nguyen@corporate.com,555-555-4696,Texas,South,United States,Houston,50672,Business,Mid-Market,2021-04-18,Active,208.23,11306.89,Invoice,SMS,English,45-54,Education
+289,Melissa Rivera,melissa.rivera@business.com,555-555-9043,Montana,West,United States,Missoula,91021,Business,Mid-Market,2024-09-29,Active,238.27,2930.72,Invoice,Phone,English,55-64,Financial Services
+290,Melissa Roberts,melissa.roberts@email.com,555-555-4174,Virginia,Southeast,United States,Richmond,94186,Residential,Individual,2021-04-28,Active,90.6,4889.38,Credit Card,Phone,English,65+,N/A
+291,Michael Allen,michael.allen@email.com,555-555-1983,South Carolina,Southeast,United States,Charleston,66557,Residential,Individual,2023-03-24,Active,85.17,2623.24,Credit Card,Phone,English,25-34,N/A
+292,Michael Baker,michael.baker@email.com,555-555-7794,Arizona,West,United States,Tucson,47158,Residential,Individual,2022-01-07,Active,86.25,3924.38,Bank Transfer,Phone,English,65+,N/A
+293,Michael Campbell,michael.campbell@email.com,555-555-3562,Washington,West,United States,Tacoma,47318,Residential,Individual,2022-02-07,Churned,96.26,4280.36,Invoice,Phone,English,35-44,N/A
+294,Michael Carter,michael.carter@email.com,555-555-6492,Pennsylvania,Northeast,United States,Philadelphia,37635,Residential,Premium,2022-08-11,Active,133.65,5118.8,Bank Transfer,Email,English,55-64,N/A
+295,Michael Lopez,michael.lopez@email.com,555-555-8918,Massachusetts,Northeast,United States,Cambridge,31067,Residential,Senior,2021-12-27,Cancelled,74.02,3395.05,Invoice,Phone,English,25-34,N/A
+296,Michael Nguyen,michael.nguyen@email.com,555-555-9124,Arizona,West,United States,Phoenix,41894,Residential,Premium,2022-04-11,Active,167.45,7094.3,Credit Card,SMS,English,65+,N/A
+297,Michael Parker,michael.parker@email.com,555-555-4557,South Carolina,Southeast,United States,Columbia,72824,Residential,Senior,2022-04-20,Active,55.37,2329.23,Credit Card,SMS,English,45-54,N/A
+298,Michael Torres,michael.torres@email.com,555-555-7415,Montana,West,United States,Billings,22599,Residential,Individual,2022-03-25,Active,84.11,3611.12,Credit Card,Phone,English,55-64,N/A
+299,Michelle Allen,michelle.allen@email.com,555-555-2420,Washington,West,United States,Seattle,28528,Residential,Premium,2022-02-25,Active,155.55,6823.46,Bank Transfer,Email,English,25-34,N/A
+300,Michelle Campbell,michelle.campbell@email.com,555-555-9725,Colorado,West,United States,Denver,34999,Residential,Premium,2021-11-25,Churned,134.46,6310.66,Credit Card,SMS,Spanish,65+,N/A
+301,Michelle Evans,michelle.evans@email.com,555-555-1378,New Jersey,Northeast,United States,Jersey City,89791,Residential,Premium,2021-04-16,Active,162.76,8848.72,Invoice,Email,English,65+,N/A
+302,Michelle Hall,michelle.hall@email.com,555-555-2394,Virginia,Southeast,United States,Richmond,59715,Residential,Individual,2022-03-01,Active,97.54,4265.75,Credit Card,Email,English,25-34,N/A
+303,Michelle Lopez,michelle.lopez@email.com,555-555-2957,Minnesota,Midwest,United States,St. Paul,50328,Residential,Premium,2021-11-04,Active,151.27,7205.49,Invoice,Phone,English,25-34,N/A
+304,Michelle Martinez,michelle.martinez@corporate.com,555-555-2111,Pennsylvania,Northeast,United States,Pittsburgh,68240,Business,Enterprise,2020-11-29,Active,287.83,16972.38,Bank Transfer,SMS,English,55-64,Real Estate
+305,Michelle Mitchell,michelle.mitchell@email.com,555-555-7659,Nevada,West,United States,Las Vegas,21892,Residential,Senior,2024-06-28,Cancelled,57.42,884.27,Invoice,Email,English,65+,N/A
+306,Michelle Phillips,michelle.phillips@email.com,555-555-5968,New York,Northeast,United States,New York,72166,Residential,Premium,2024-06-29,Active,138.33,2125.67,Debit Card,Email,English,55-64,N/A
+307,Mike Thompson,mike.thompson@email.com,555-555-8107,New Jersey,Northeast,United States,Jersey City,10670,Residential,Individual,2021-03-16,Active,87.76,4861.9,Bank Transfer,Phone,English,65+,N/A
+308,Nancy Baker,nancy.baker@business.com,555-555-5746,Texas,South,United States,Austin,42773,Business,Mid-Market,2021-10-01,Active,298.78,14570.5,Invoice,Email,English,25-34,Healthcare
+309,Nancy Hall,nancy.hall@techcorp.com,555-555-8913,Alabama,Southeast,United States,Birmingham,57387,Business,Mid-Market,2020-11-24,Active,246.8,14594.11,Invoice,SMS,English,45-54,Retail
+310,Nancy Martin,nancy.martin@techcorp.com,555-555-4499,Florida,South,United States,Miami,39574,Business,Enterprise,2021-08-08,Active,392.3,19837.3,Invoice,Phone,English,35-44,Education
+311,Nancy Rivera,nancy.rivera@email.com,555-555-7116,Pennsylvania,Northeast,United States,Pittsburgh,10664,Residential,Individual,2022-04-25,Active,90.65,3798.24,Invoice,Phone,English,45-54,N/A
+312,Nancy Scott,nancy.scott@email.com,555-555-9922,South Carolina,Southeast,United States,Charleston,58457,Residential,Premium,2022-03-05,Active,155.93,6798.55,Credit Card,Email,English,45-54,N/A
+313,Nancy Taylor,nancy.taylor@business.com,555-555-4231,Florida,South,United States,Jacksonville,67940,Business,Mid-Market,2023-05-30,Churned,266.33,7608.16,Bank Transfer,SMS,English,65+,Professional Services
+314,Nancy Turner,nancy.turner@email.com,555-555-6762,Hawaii,West,United States,Honolulu,17573,Residential,Senior,2024-06-30,Active,52.75,808.83,Bank Transfer,Phone,English,65+,N/A
+315,Nancy Walker,nancy.walker@email.com,555-555-8545,North Carolina,South,United States,Charlotte,58969,Residential,Premium,2021-03-21,Active,154.33,8524.16,Bank Transfer,Email,English,25-34,N/A
+316,Nancy Wilson,nancy.wilson@email.com,555-555-9441,New Jersey,Northeast,United States,Jersey City,94679,Residential,Premium,2022-12-18,Active,171.81,5841.54,Credit Card,Phone,English,55-64,N/A
+317,Nicole Taylor,nicole.taylor@email.com,555-555-2962,California,West,United States,Los Angeles,82934,Residential,Individual,2022-12-26,Active,74.88,2525.95,Bank Transfer,SMS,English,55-64,N/A
+318,Rachel Green,rachel.green@email.com,555-555-6686,Alabama,Southeast,United States,Montgomery,37144,Residential,Individual,2021-10-20,Active,97.83,4708.88,Debit Card,SMS,English,55-64,N/A
+319,Raymond Allen,raymond.allen@email.com,555-555-5574,Montana,West,United States,Billings,50267,Residential,Premium,2020-10-25,Active,149.33,8979.71,Bank Transfer,SMS,English,65+,N/A
+320,Raymond Harris,raymond.harris@email.com,555-555-3734,Alabama,Southeast,United States,Birmingham,52501,Residential,Premium,2021-11-27,Active,173.79,8144.96,Debit Card,SMS,English,55-64,N/A
+321,Raymond King,raymond.king@email.com,555-555-5135,Virginia,Southeast,United States,Norfolk,60518,Residential,Premium,2024-06-01,Active,175.86,2866.52,Debit Card,Email,English,45-54,N/A
+322,Raymond Parker,raymond.parker@email.com,555-555-6268,Colorado,West,United States,Colorado Springs,61527,Residential,Individual,2024-02-23,Active,72.5,1421.0,Bank Transfer,Email,English,45-54,N/A
+323,Raymond Scott,raymond.scott@email.com,555-555-1009,North Carolina,South,United States,Charlotte,35171,Residential,Individual,2024-05-09,Churned,86.3,1472.85,Debit Card,Phone,English,45-54,N/A
+324,Raymond Turner,raymond.turner@email.com,555-555-5264,New Jersey,Northeast,United States,Newark,53136,Residential,Premium,2021-02-10,Active,177.82,10052.76,Invoice,Phone,English,35-44,N/A
+325,Rebecca King,rebecca.king@email.com,555-555-1410,Hawaii,West,United States,Honolulu,39348,Residential,Individual,2021-07-13,Active,77.55,3988.65,Invoice,Phone,English,35-44,N/A
+326,Rebecca Lopez,rebecca.lopez@email.com,555-555-9858,Arizona,West,United States,Tucson,85916,Residential,Individual,2022-04-03,Active,89.82,3829.33,Credit Card,Email,Spanish,65+,N/A
+327,Rebecca Nelson,rebecca.nelson@email.com,555-555-5316,Georgia,South,United States,Atlanta,45136,Residential,Premium,2020-11-30,Active,160.77,9474.71,Credit Card,Phone,English,35-44,N/A
+328,Rebecca Scott,rebecca.scott@email.com,555-555-4195,New Jersey,Northeast,United States,Newark,98621,Residential,Premium,2021-12-08,Active,164.86,7665.99,Bank Transfer,Email,English,65+,N/A
+329,Rebecca Young,rebecca.young@email.com,555-555-1508,South Carolina,Southeast,United States,Columbia,80960,Residential,Individual,2023-04-13,Active,88.47,2665.9,Bank Transfer,Phone,Chinese,35-44,N/A
+330,Richard Allen,richard.allen@email.com,555-555-6913,Georgia,South,United States,Atlanta,34681,Residential,Premium,2023-12-19,Active,162.01,3531.82,Credit Card,Email,English,45-54,N/A
+331,Richard Carter,richard.carter@email.com,555-555-2515,Oregon,West,United States,Eugene,99304,Residential,Individual,2024-03-31,Active,86.58,1590.19,Debit Card,Phone,English,45-54,N/A
+332,Richard Flores,richard.flores@email.com,555-555-3599,Virginia,Southeast,United States,Norfolk,81692,Residential,Premium,2023-02-19,Active,165.71,5286.15,Debit Card,Email,Spanish,25-34,N/A
+333,Richard Hall,richard.hall@email.com,555-555-3698,Massachusetts,Northeast,United States,Boston,20296,Residential,Premium,2021-11-29,Active,158.92,7437.46,Credit Card,SMS,English,45-54,N/A
+334,Richard Harris,richard.harris@techcorp.com,555-555-1912,South Carolina,Southeast,United States,Columbia,55206,Business,Mid-Market,2022-09-11,Active,269.43,10040.76,Invoice,Email,Korean,35-44,Technology
+335,Richard Martin,richard.martin@email.com,555-555-8745,Pennsylvania,Northeast,United States,Pittsburgh,32027,Residential,Individual,2020-11-27,Active,76.4,4510.15,Bank Transfer,Email,English,25-34,N/A
+336,Richard Torres,richard.torres@business.com,555-555-5304,Nevada,West,United States,Las Vegas,90719,Business,Enterprise,2023-02-12,Active,377.43,12128.08,Invoice,Phone,English,65+,Real Estate
+337,Robert Kim,robert.kim@email.com,555-555-1902,New Jersey,Northeast,United States,Jersey City,80712,Residential,Individual,2021-06-30,Active,99.7,5171.11,Credit Card,SMS,English,45-54,N/A
+338,Ronald Allen,ronald.allen@email.com,555-555-8789,Georgia,South,United States,Atlanta,65273,Residential,Individual,2024-06-17,Active,88.27,1391.72,Invoice,Email,English,55-64,N/A
+339,Ronald Carter,ronald.carter@techcorp.com,555-555-5459,Virginia,Southeast,United States,Norfolk,79130,Business,Enterprise,2020-10-05,Active,396.95,24134.56,Invoice,Email,English,55-64,Retail
+340,Ronald Harris,ronald.harris@email.com,555-555-5962,Arizona,West,United States,Phoenix,67858,Residential,Individual,2023-08-29,Active,92.12,2352.13,Invoice,Email,English,35-44,N/A
+341,Ronald Hill,ronald.hill@email.com,555-555-4259,South Carolina,Southeast,United States,Charleston,13939,Residential,Individual,2024-06-23,Active,85.05,1323.94,Invoice,Email,English,45-54,N/A
+342,Ronald Jackson,ronald.jackson@corporate.com,555-555-7666,Oregon,West,United States,Eugene,46073,Business,Mid-Market,2022-12-25,Active,234.07,7903.76,Invoice,SMS,English,55-64,Real Estate
+343,Ronald Lewis,ronald.lewis@email.com,555-555-7438,Nevada,West,United States,Las Vegas,67429,Residential,Premium,2022-07-06,Active,178.99,7070.11,Credit Card,Email,English,25-34,N/A
+344,Ronald Martinez,ronald.martinez@email.com,555-555-7251,Minnesota,Midwest,United States,Minneapolis,21474,Residential,Individual,2021-11-15,Active,91.15,4308.36,Debit Card,SMS,English,35-44,N/A
+345,Ronald Robinson,ronald.robinson@consulting.com,555-555-5538,South Carolina,Southeast,United States,Charleston,18459,Business,Mid-Market,2021-05-08,Churned,208.87,11202.39,Invoice,Phone,English,45-54,Healthcare
+346,Ronald Young,ronald.young@email.com,555-555-2251,Pennsylvania,Northeast,United States,Philadelphia,97726,Residential,Senior,2024-07-20,Active,57.06,836.88,Credit Card,SMS,English,35-44,N/A
+347,Sandra Baker,sandra.baker@email.com,555-555-3769,Alabama,Southeast,United States,Birmingham,83037,Residential,Individual,2021-07-09,Active,77.15,3978.37,Debit Card,Phone,English,25-34,N/A
+348,Sandra Campbell,sandra.campbell@email.com,555-555-7063,Pennsylvania,Northeast,United States,Philadelphia,28956,Residential,Premium,2021-05-28,Active,156.97,8314.18,Debit Card,Email,English,55-64,N/A
+349,Sandra Lewis,sandra.lewis@email.com,555-555-2561,Virginia,Southeast,United States,Richmond,43320,Residential,Individual,2020-10-18,Active,96.9,5849.53,Bank Transfer,SMS,Korean,25-34,N/A
+350,Sandra Moore,sandra.moore@email.com,555-555-5638,New Jersey,Northeast,United States,Newark,11645,Residential,Premium,2021-02-15,Active,174.31,9825.27,Bank Transfer,Email,English,35-44,N/A
+351,Sandra Parker,sandra.parker@email.com,555-555-2577,New Jersey,Northeast,United States,Newark,64238,Residential,Premium,2023-01-07,Active,142.35,4745.0,Invoice,SMS,Korean,65+,N/A
+352,Sandra Phillips,sandra.phillips@business.com,555-555-1474,Georgia,South,United States,Savannah,47088,Business,Mid-Market,2021-03-20,Active,261.73,14464.94,Invoice,Email,English,55-64,Professional Services
+353,Sandra Robinson,sandra.robinson@email.com,555-555-8787,North Carolina,South,United States,Raleigh,84072,Residential,Premium,2022-04-09,Active,151.48,6427.8,Bank Transfer,Email,Spanish,65+,N/A
+354,Sandra Walker,sandra.walker@email.com,555-555-8545,Texas,South,United States,Houston,27294,Residential,Individual,2024-01-27,Active,91.36,1872.88,Bank Transfer,Phone,English,35-44,N/A
+355,Sandra Wilson,sandra.wilson@email.com,555-555-2563,South Carolina,Southeast,United States,Charleston,32691,Residential,Individual,2024-09-24,Churned,76.21,950.08,Credit Card,Phone,English,25-34,N/A
+356,Sarah Harris,sarah.harris@email.com,555-555-1060,Michigan,Midwest,United States,Detroit,14534,Residential,Premium,2021-02-18,Active,132.64,7463.21,Bank Transfer,Phone,Korean,25-34,N/A
+357,Sarah Lopez,sarah.lopez@email.com,555-555-7952,Missouri,Midwest,United States,Kansas City,14568,Residential,Individual,2022-02-01,Active,86.15,3848.03,Debit Card,Phone,English,55-64,N/A
+358,Sarah Martin,sarah.martin@email.com,555-555-9010,California,West,United States,Sacramento,25797,Residential,Individual,2022-11-19,Active,72.28,2527.39,Bank Transfer,Phone,English,55-64,N/A
+359,Sarah Mitchell,sarah.mitchell@email.com,555-555-3221,Arizona,West,United States,Phoenix,84934,Residential,Premium,2022-08-29,Active,144.42,5444.63,Invoice,SMS,English,25-34,N/A
+360,Sarah Rivera,sarah.rivera@email.com,555-555-8710,Missouri,Midwest,United States,Kansas City,88382,Residential,Premium,2024-01-04,Active,142.51,3030.71,Invoice,SMS,English,45-54,N/A
+361,Sarah Roberts,sarah.roberts@email.com,555-555-6271,Florida,South,United States,Tampa,90296,Residential,Premium,2022-03-28,Active,144.23,6177.85,Invoice,Email,English,55-64,N/A
+362,Scott Flores,scott.flores@email.com,555-555-1199,New York,Northeast,United States,Brooklyn,22098,Residential,Individual,2022-05-21,Cancelled,72.33,2967.94,Invoice,SMS,English,55-64,N/A
+363,Scott Green,scott.green@consulting.com,555-555-3655,Colorado,West,United States,Colorado Springs,50971,Business,Mid-Market,2022-12-09,Active,259.24,8891.93,Bank Transfer,Phone,English,45-54,Education
+364,Scott Lee,scott.lee@email.com,555-555-4318,Montana,West,United States,Billings,60638,Residential,Premium,2023-02-02,Active,138.74,4504.43,Bank Transfer,Phone,English,25-34,N/A
+365,Scott Martinez,scott.martinez@techcorp.com,555-555-6927,Texas,South,United States,Houston,55053,Business,Mid-Market,2020-10-18,Active,255.28,15410.4,Invoice,SMS,English,45-54,Real Estate
+366,Scott Walker,scott.walker@corporate.com,555-555-1021,Hawaii,West,United States,Honolulu,67795,Business,Enterprise,2021-12-07,Active,329.78,15345.76,Bank Transfer,Email,English,65+,Technology
+367,Scott Wright,scott.wright@email.com,555-555-6825,Massachusetts,Northeast,United States,Boston,46407,Residential,Individual,2022-05-12,Active,74.6,3083.47,Debit Card,Email,English,25-34,N/A
+368,Scott Young,scott.young@email.com,555-555-8886,Pennsylvania,Northeast,United States,Philadelphia,47550,Residential,Individual,2023-12-06,Active,85.08,1891.61,Invoice,Email,Korean,65+,N/A
+369,Sharon Anderson,sharon.anderson@email.com,555-555-8597,Florida,South,United States,Jacksonville,80065,Residential,Individual,2022-05-11,Active,72.31,2991.22,Credit Card,Email,English,45-54,N/A
+370,Sharon Baker,sharon.baker@email.com,555-555-6285,South Carolina,Southeast,United States,Charleston,68767,Residential,Individual,2023-03-27,Active,85.98,2639.59,Bank Transfer,SMS,English,65+,N/A
+371,Sharon Campbell,sharon.campbell@email.com,555-555-9238,Washington,West,United States,Spokane,65923,Residential,Premium,2024-06-05,Churned,135.78,2195.11,Invoice,Phone,English,65+,N/A
+372,Sharon Carter,sharon.carter@email.com,555-555-8989,New Jersey,Northeast,United States,Jersey City,17828,Residential,Premium,2022-06-21,Active,144.0,5760.0,Bank Transfer,Phone,Spanish,35-44,N/A
+373,Sharon Nelson,sharon.nelson@email.com,555-555-3196,Georgia,South,United States,Savannah,42630,Residential,Individual,2024-02-15,Cancelled,98.58,1958.46,Credit Card,SMS,English,65+,N/A
+374,Sharon Nguyen,sharon.nguyen@email.com,555-555-6037,Illinois,Midwest,United States,Chicago,64217,Residential,Individual,2023-03-13,Active,73.97,2305.4,Invoice,Phone,English,35-44,N/A
+375,Sharon Robinson,sharon.robinson@email.com,555-555-2699,Georgia,South,United States,Savannah,86238,Residential,Premium,2021-06-17,Active,177.38,9276.97,Credit Card,Phone,English,25-34,N/A
+376,Sharon Taylor,sharon.taylor@email.com,555-555-4840,Nevada,West,United States,Reno,56811,Residential,Individual,2022-12-16,Active,81.02,2760.08,Bank Transfer,Email,English,65+,N/A
+377,Sharon Torres,sharon.torres@email.com,555-555-3877,Colorado,West,United States,Colorado Springs,27498,Residential,Senior,2024-03-20,Active,48.77,913.62,Debit Card,SMS,English,55-64,N/A
+378,Stephanie Adams,stephanie.adams@email.com,555-555-9012,Nevada,West,United States,Reno,78285,Residential,Individual,2023-08-15,Active,96.35,2505.1,Invoice,Email,English,45-54,N/A
+379,Stephanie Gonzalez,stephanie.gonzalez@email.com,555-555-1128,Pennsylvania,Northeast,United States,Pittsburgh,85942,Residential,Individual,2024-03-10,Active,72.85,1389.01,Invoice,Email,English,55-64,N/A
+380,Stephanie Harris,stephanie.harris@email.com,555-555-3794,South Carolina,Southeast,United States,Charleston,37456,Residential,Individual,2024-04-04,Active,85.57,1560.23,Debit Card,Phone,English,65+,N/A
+381,Stephanie Lewis,stephanie.lewis@techcorp.com,555-555-2395,Alabama,Southeast,United States,Birmingham,90513,Business,Mid-Market,2024-07-09,Active,225.7,3393.02,Invoice,SMS,English,55-64,Financial Services
+382,Stephanie Nelson,stephanie.nelson@email.com,555-555-5464,Illinois,Midwest,United States,Springfield,86422,Residential,Senior,2023-03-24,Active,50.79,1564.33,Invoice,SMS,English,35-44,N/A
+383,Stephanie Walker,stephanie.walker@corporate.com,555-555-9012,Hawaii,West,United States,Honolulu,14986,Business,Enterprise,2023-03-22,Active,394.88,12188.63,Invoice,Email,English,45-54,Technology
+384,Stephanie Wilson,stephanie.wilson@email.com,555-555-8039,Oregon,West,United States,Eugene,98527,Residential,Senior,2022-06-18,Active,68.13,2732.01,Debit Card,Phone,English,35-44,N/A
+385,Steve Johnson,steve.johnson@email.com,555-555-2022,Massachusetts,Northeast,United States,Boston,50281,Residential,Individual,2023-05-13,Active,86.49,2519.74,Bank Transfer,Email,English,45-54,N/A
+386,Steven Gonzalez,steven.gonzalez@consulting.com,555-555-1357,Indiana,Midwest,United States,Fort Wayne,72926,Business,Mid-Market,2023-07-19,Active,293.92,7906.45,Invoice,Phone,English,55-64,Financial Services
+387,Steven Hill,steven.hill@email.com,555-555-4976,Washington,West,United States,Tacoma,95558,Residential,Individual,2023-02-26,Active,80.34,2544.1,Bank Transfer,Phone,English,25-34,N/A
+388,Steven Martin,steven.martin@email.com,555-555-2724,New York,Northeast,United States,New York,20917,Residential,Individual,2022-10-25,Active,85.08,3045.86,Credit Card,Email,English,35-44,N/A
+389,Steven Taylor,steven.taylor@email.com,555-555-8881,New York,Northeast,United States,Buffalo,35699,Residential,Senior,2024-01-03,Active,53.03,1129.54,Invoice,Email,English,35-44,N/A
+390,Steven Walker,steven.walker@email.com,555-555-8355,Virginia,Southeast,United States,Richmond,52793,Residential,Senior,2021-07-07,Active,64.05,3307.11,Invoice,Phone,English,45-54,N/A
+391,Steven Wilson,steven.wilson@email.com,555-555-2650,Missouri,Midwest,United States,St. Louis,52467,Residential,Individual,2022-04-03,Active,85.08,3627.24,Bank Transfer,SMS,English,35-44,N/A
+392,Susan Clark,susan.clark@email.com,555-555-4461,Florida,South,United States,Tampa,90693,Residential,Individual,2021-10-21,Active,91.92,4421.35,Invoice,Phone,English,65+,N/A
+393,Susan Flores,susan.flores@email.com,555-555-5607,North Carolina,South,United States,Raleigh,99922,Residential,Premium,2021-03-14,Active,140.71,7804.71,Credit Card,SMS,English,35-44,N/A
+394,Susan Lopez,susan.lopez@email.com,555-555-9210,Virginia,Southeast,United States,Norfolk,44788,Residential,Individual,2023-10-03,Cancelled,94.18,2294.85,Invoice,Email,English,65+,N/A
+395,Susan Walker,susan.walker@techcorp.com,555-555-4472,Florida,South,United States,Miami,98124,Business,Mid-Market,2023-07-02,Active,204.16,5607.59,Invoice,SMS,English,65+,Real Estate
+396,Thomas Allen,thomas.allen@email.com,555-555-2777,Washington,West,United States,Seattle,99159,Residential,Premium,2021-01-02,Active,132.23,7647.3,Invoice,Email,English,65+,N/A
+397,Thomas Baker,thomas.baker@business.com,555-555-2563,Indiana,Midwest,United States,Fort Wayne,61125,Business,Mid-Market,2022-11-16,Active,245.41,8605.71,Invoice,Phone,Korean,35-44,Real Estate
+398,Thomas Evans,thomas.evans@email.com,555-555-5085,Missouri,Midwest,United States,Kansas City,44622,Residential,Premium,2021-02-24,Active,171.22,9599.73,Invoice,SMS,English,45-54,N/A
+399,Thomas Harris,thomas.harris@email.com,555-555-5828,Texas,South,United States,San Antonio,19195,Residential,Individual,2022-11-25,Active,93.45,3248.95,Credit Card,Phone,English,25-34,N/A
+400,Thomas Hill,thomas.hill@email.com,555-555-3201,Arizona,West,United States,Tucson,23166,Residential,Individual,2021-03-20,Active,94.8,5239.28,Invoice,SMS,English,25-34,N/A
+401,Thomas Lopez,thomas.lopez@email.com,555-555-4533,Arizona,West,United States,Phoenix,10980,Residential,Premium,2023-06-10,Active,130.7,3685.74,Bank Transfer,SMS,English,45-54,N/A
+402,Thomas Moore,thomas.moore@email.com,555-555-1692,Washington,West,United States,Seattle,18385,Residential,Premium,2022-06-18,Active,164.33,6589.63,Debit Card,SMS,English,55-64,N/A
+403,Thomas Nelson,thomas.nelson@email.com,555-555-7870,South Carolina,Southeast,United States,Columbia,28826,Residential,Premium,2021-08-04,Active,170.74,8656.52,Credit Card,SMS,English,65+,N/A
+404,Thomas Scott,thomas.scott@email.com,555-555-9290,South Carolina,Southeast,United States,Columbia,19263,Residential,Premium,2021-04-10,Active,168.9,9216.31,Debit Card,Email,English,55-64,N/A
+405,Thomas Taylor,thomas.taylor@email.com,555-555-3962,Georgia,South,United States,Atlanta,56470,Residential,Individual,2022-04-25,Active,87.76,3677.14,Debit Card,Email,English,65+,N/A
+406,Thomas Turner,thomas.turner@email.com,555-555-4144,Nevada,West,United States,Reno,12165,Residential,Senior,2023-03-21,Active,61.66,1905.29,Credit Card,Phone,English,55-64,N/A
+407,Thomas Walker,thomas.walker@email.com,555-555-9265,North Carolina,South,United States,Charlotte,15549,Residential,Individual,2023-02-14,Active,93.05,2983.8,Invoice,Email,English,25-34,N/A
+408,Thomas Wright,thomas.wright@email.com,555-555-2668,Ohio,Midwest,United States,Cincinnati,44979,Residential,Individual,2023-11-04,Active,87.36,2035.49,Bank Transfer,SMS,English,25-34,N/A
+409,Timothy Anderson,timothy.anderson@email.com,555-555-7230,North Carolina,South,United States,Raleigh,97843,Residential,Individual,2023-09-29,Active,95.8,2347.1,Invoice,Phone,English,45-54,N/A
+410,Timothy Baker,timothy.baker@email.com,555-555-3523,Arizona,West,United States,Tucson,96837,Residential,Premium,2022-02-24,Active,145.5,6387.45,Bank Transfer,SMS,English,45-54,N/A
+411,Timothy Evans,timothy.evans@business.com,555-555-6225,Ohio,Midwest,United States,Columbus,42113,Business,Enterprise,2022-01-01,Active,398.65,18218.31,Invoice,Email,English,55-64,Technology
+412,Timothy Moore,timothy.moore@email.com,555-555-6844,Colorado,West,United States,Denver,26357,Residential,Individual,2021-03-17,Active,90.51,5011.24,Credit Card,Phone,English,45-54,N/A
+413,Timothy Parker,timothy.parker@email.com,555-555-3047,North Carolina,South,United States,Charlotte,31155,Residential,Individual,2021-10-22,Active,79.87,3839.08,Bank Transfer,Phone,English,25-34,N/A
+414,Timothy Wilson,timothy.wilson@email.com,555-555-4977,Montana,West,United States,Missoula,77489,Residential,Premium,2023-07-26,Active,151.05,4028.0,Credit Card,SMS,English,25-34,N/A
+415,William Clark,william.clark@email.com,555-555-3062,Texas,South,United States,Dallas,68553,Residential,Premium,2022-11-15,Active,134.57,4723.41,Invoice,Email,Spanish,25-34,N/A
+416,William Lopez,william.lopez@email.com,555-555-4749,Minnesota,Midwest,United States,St. Paul,69812,Residential,Individual,2021-01-30,Cancelled,95.33,5424.28,Invoice,Email,English,25-34,N/A
+417,William Martin,william.martin@email.com,555-555-7514,Nevada,West,United States,Reno,97670,Residential,Premium,2023-03-02,Active,172.66,5444.55,Credit Card,Phone,English,35-44,N/A
+418,William Nelson,william.nelson@email.com,555-555-4964,Pennsylvania,Northeast,United States,Pittsburgh,16654,Residential,Premium,2023-09-19,Active,167.43,4157.85,Credit Card,Phone,English,35-44,N/A

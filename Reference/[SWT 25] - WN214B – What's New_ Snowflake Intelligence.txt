@@ -1,0 +1,511 @@
+WHAT’S NEW
+SNOWFLAKE INTELLIGENCE AND NO-CODE AGENTIC AI
+Firstname Lastname
+Title  |  Company
+1
+
+Safe Harbor and Disclaimers
+© 2025 Snowflake Inc. All rights reserved. Snowflake, the Snowflake logo, and all other Snowflake product, feature and service names mentioned in the Materials are registered trademarks or trademarks of Snowflake Inc. in the United States and other countries. All other brand names or logos mentioned or used in the Materials are for identification purposes only and may be the trademarks of their respective holder(s). Snowflake may not be associated with, or be sponsored or endorsed by, any such holder(s).
+Other than statements of historical fact, all information contained in these materials and any accompanying oral commentary (collectively, the “Materials”), including statements regarding (i) Snowflake’s business strategy, plans or priorities, (ii) Snowflake’s new or enhanced products, services, and technology offerings, including those that are under development or not generally available, (iii) market growth, trends, and competitive considerations, (iv) our vision for Snowpark, the Data Cloud, and industry-specific Data Clouds, including the expected benefits and network effects of the Data Cloud; and (v) the integration, interoperability, and availability of Snowflake’s products, services, or technology offerings with or on third-party platforms or products, are forward-looking statements. These forward-looking statements are subject to a number of risks, uncertainties and assumptions, including those described under the heading “Risk Factors” and elsewhere in the Annual Reports on Form 10-K and the Quarterly Reports on Form 10-Q that Snowflake files with the Securities and Exchange Commission. In light of these risks, uncertainties, and assumptions, the future events and trends discussed in the Materials may not occur, and actual results could differ materially and adversely from those anticipated or implied in the forward-looking statements. As a result, you should not rely on any forwarding-looking statements as predictions of future events. Forward-looking statements speak only as of the date the statements are first made and are based on information available to us at the time those statements are made and/or management's good faith belief as of that time. Except as required by law, we undertake no obligation, and do not intend, to update the forward-looking statements in these Materials.
+Any future product or roadmap information (collectively, the “Roadmap”) is intended to outline general product direction. The Roadmap is not a commitment, promise, or legal obligation for Snowflake to deliver any future products, features, or functionality; and is not intended to be, and shall not be deemed to be, incorporated into any contract. The actual timing of any product, feature, or functionality that is ultimately made available may be different from what is presented in the Roadmap. The Roadmap information should not be used when making a purchasing decision. In case of conflict between the information contained in the Materials and official Snowflake documentation, official Snowflake documentation should take precedence over these Materials. Further, note that Snowflake has made no determination as to whether separate fees will be charged for any future products, features, and/or functionality which may ultimately be made available. Snowflake may, in its own discretion, choose to charge separate fees for the delivery of any future products, features, and/or functionality which are ultimately made available.
+The Materials may contain information provided by third-parties. Snowflake has not independently verified this information, and usage of this information does not mean or imply that Snowflake has adopted this information as its own or independently verified its accuracy.
+Before we get started, I do want to share that we will be discussing some forward looking statements in today’s presentation.
+
+Title
+Company
+Firstname Lastname
+
+Data is spread across many different apps and platforms.
+Finding deeper insights requires manual effort or data team help.
+Governance & access permissions make data discovery difficult.
+Users spend much time finding data across dashboards and apps.
+Gaining Insights: A Complex Puzzle
+4
+
+Moving Beyond Search & Knowledge Into Insights
+Knowledge
+Pulls together content from robust knowledge bases and more readily surfaces that information. Helps understand the what.
+Insights
+Brings in business context, data, and reasoning to seamlessly understand the why - directly delivering insights.
+Search
+Get pointers to where knowledge and insights may live, but up to the user to navigate and uncover it from a pool of links.
+5
+
+Business Runs on Data: Data Agents Unlock It
+“Snowflake's unified data and AI platform provides our developer team with scalable processing and retrieval for both structured and unstructured data — the critical building blocks for developing, deploying and orchestrating data agents powering our applications.”
+Glenn Walker
+Chief Data Officer, Luminate Data
+Brand & product planningWhat are my top selling products (sales records), and why are people buying them today (reviews)?
+Claims processing
+Supplier management
+Customer support
+Insurance underwriting
+Retail order management
+6
+
+What Would It Take to Get Insights Into Users Hands Today?
+Building the application and interface
+User and role access controls
+Aggregating data from various sources
+Agent capabilities (insights, actions, charts)
+7
+
+Introducing Snowflake Intelligence
+AI-powered data agents for everyone
+Ready-to-run application for rich conversational AI experiences on top of your Snowflake and business application data.
+Integrated with Snowflake governance and access controls.
+A standalone application so you can invite anyone in the business to surface insights and take action from your data.
+8
+
+HELLO SNOWFLAKE INTELLIGENCE
+DEMO
+9
+
+What Is An Agent?
+AI Agents refers to artificial intelligence systems that can be configured to reason through a task by breaking it into smaller subtasks for accomplishing a specific goal.
+Planning
+Track details
+Tool use
+Reflection
+ AI agents dynamically handle multi-step actions and complex reasoning, a significant improvement over the mostly reactive software tools available today.
+10
+
+The Importance Of Context For Enterprise Agents
+AGENTS
+Insights
+Accurate context delivers strong insights
+Retrieval
+This is what provides the “context”
+Large Language Model
+
+
+11
+
+AI Agents Are the Future of the Enterprise
+But there are challenges in scaling them
+What questions can I ask?
+How can I help?
+Accuracy
+Trust & Security
+Governed Data Access
+12
+
+CONNECTING TO YOUR DATA
+13
+
+Surface Structured Insights Through 
+Cortex Analyst
+Why?Cortex Analyst is an agentic AI service powered LLMs on customer defined table semantics; all running inside Snowflake.
+Customizable to your data
+Enrich semantic model with business synonyms and metric definitions
+Add common queries to Verified Query Repository (VQR)
+Add business specific rules with custom instructions
+OUT-OF-BOX ACCURACY
+Cortex Analyst
+GPT-4o
+Databricks
+*SQL generation accuracy on joins, based on internal benchmarks. 
+Source: Snowflake Cortex Analyst: Introducing Joins for Star and Snowflake Schemas.
+14
+
+Snowflake Semantic Views
+Users can access via any SQL interface or through the Cortex Analyst Semantic Model Generator.
+Semantic View is a new schema level object that stores all semantic model information natively in the database, replacing the current Cortex Analyst YAML file stored in stage.
+AI LLM accuracy is improved through the rule-based correctness of the Semantic Model. Allows BI business users to interact with data through consistent business metrics.
+WHAT IS IT
+WHY USE IT
+HOW TO USE IT
+In Dev
+Private
+Public
+GA
+15
+
+Cortex Analyst - Semantic Autopilot
+Automatically generates semantic models using context from dashboards, queries and external semantic layers.
+16
+Go to Snowsight → Cortex Analyst → Create Semantic Model
+Let AI infer and populate model using existing context
+Review and validate the generated model
+Reduces months of manual modelling work to minutes
+Speeds up setup of governed analytics
+Helps standardize and scale enterprise insights
+WHAT IS IT
+WHY USE IT
+HOW TO USE IT
+In Dev
+Private
+
+
+
+Public
+GA
+SOON
+16
+
+Surface Unstructured Insights Through 
+Cortex Search
+Why?Combines vector and keyword search methods, along with ensemble of reranking models and customizable scoring. 
+Customizable to your data
+Automatically improve search quality via parameter tuning and evaluations 
+Personalize the search ranking based on business data and user signals
+Semantic term boosting for adaptive business search requirements
+Retrieval system average performance across tasks
+Avg NCDG@10
+OUT-OF-BOX ACCURACY
+Source: https://www.snowflake.com/en/engineering-blog/cortex-search-unmatched-quality-simplicity/
+17
+
+Azure Data Lake Storage
+Azure Blob Storage
+Meta Ads
+Microsoft Dataverse
+Others
+Streaming
+Database
+Unstructured
+SaaS
+Google Sheets
+Openflow Connectors in GA and PuPr as of June 3rd, 2025
+
+Others
+Streaming
+Database
+Unstructured
+SaaS
+Planned Openflow connectors roadmap, subject to change
+Google BigQuery
+Source & Sink
+Meta Ads
+Google Sheets
+Microsoft Dataverse
+Azure Data Lake Storage
+Azure Blob Storage
+Roadmap 
+
+Partnership - Bi-directional integrations with partners 
+
+esp. Box  
+
+Draw on AI Ready External Content & Data
+Contextualize responses with the latest industry knowledge & insights
+
+
+
+
+
+
+Structured data products
+Semantic model
+Unstructured data products
+AI READY GOLD
+Sharing of 
+Semantic Models (PrPr)
+Structured data shares ready to plug into any Cortex-enabled application
+Cortex Knowledge Extensions (GA Soon)
+Up-to-date, relevant and properly-licensed third-party content
+Data from your:     SaaS applications     |     Financial market data     |     Alternative data
+News & Expert opinions  |  Technical books, documentation & forums	|  Research papers
+Sharing Semantic Models: Cotality, CB Insights, CartoDB, Truestar, IPinfo, Snowflake
+CKE: The Associated Press, USA Today Network, Stack Overflow, packt, CB Insights
+20
+
+DELIVERING INSIGHTS & ACTIONS
+21
+
+Out of the Box Tools for Your Agent
+More to come…
+File Upload
+Custom Tools
+Talk to your files and use file content to help enrich conversations
+Call code securely in Snowflake to extend your agent to do anything
+Web Search*
+Reference up-to-date information to expand the knowledge of your agent to the public internet
+Deep Analysis
+Explore your data to answer challenging questions
+*coming soon
+22
+
+Rich Interface
+Choice of Data Sources
+Retrieve Conversations
+Provide 
+Feedback
+RECENT CONVERSATIONS 
+Top Revenue Earning Companies Revealed
+Confluence
+Google Drive
+Sales Enablement
+Salesforce
+Pipeline
+Product Usage Cortex
+Workday 
+
+The response should include detail on the revenue as well as the inventory table.
+Fundamentally, our product guiding principles for Gen AI are to provide a platform that is efficient, easy, and trusted.  It is built for enterprise in mind.
+
+23
+
+BRINGING TRUST TO YOUR INSIGHTS
+24
+
+Trust Your Agent
+Integrated experiences to help understand and provide feedback on answers
+See which answers are verified by data teams
+Understand where the data is coming from
+Integrated feedback to improve the agent
+25
+
+Keep Your Data Secured
+Control who can see and converse with various data agents
+Access policies, masking, and more are honored out of the box.
+Ability to enforce search results for unstructured by user identifier (PrPr)
+26
+
+User Credentials Mapping
+Simplified user management
+Assign Snowflake roles to users
+RBAC used for data retrievaland Agent access
+Multiple credentialmanagement systems
+
+Sales Agent
+HR Agent
+IT Agent
+Mktg Agent
+Structured 
+Data
+Semi-structured 
+Data
+Unstructured 
+Data
+All Your 
+Data
+27
+
+Easily Build, Observe, and Improve Your Agents
+Build a data agent in minutes
+See who is interacting with the agent and various quality scores
+Act on feedback and usage data to improve your agent
+28
+28
+
+Flexible Interaction Model
+Clarifications
+Suggested Queries
+Seed Questions
+What was our case volume?
+To confirm, this is for all of the products?
+Can you tell me errorcode 212 on the printer?
+Sorry I am unable to help with that specific question. But here are some queries that I can help answer:
+How do I reset the error code
+What is the error code 200?
+How do I load a new toner
+Let me know how I can help. You can ask questions related to IT support:
+How do I set up mynew laptop?
+Where is IT office located?
+How do I reset my password?
+29
+
+AGENT ADMINISTRATION
+DEMO
+30
+
+Transforming AI Adoption with Snowflake Intelligence
+Data Gathering
+Text to SQL
+
+Research
+Business User AI Adoption
+Retrieval Augmented Generation (RAG)
+How many of you remember the movie ‘Interstellar’? It’s definitely one of my favorite movies. In the movie Interstellar, there’s a concept of Transposing, which refers to sending information across space & time. Well, too much of guesswork, let me explain the analogy in detail.
+Traditionally, the ‘Talk to the Data’ journey for an organization matured through the task specific LLMs that could do ‘Text to SQL’, ‘Retrieval Augmented Generation’ or RAG and then the final frontier of ‘Research or Reasoning’, allowing business users to ask pointed, specific questions at each step leading to a good quality Descriptive analytics. Although each step unlocked new insights, the information was all fairly distributed and required a human to connect the dots.
+With Snowflake Intelligence, business users can access Snowflake directly and leverage job-based or persona-based AI Agents and ask subjective, qualitative & Diagnostic questions on top of their enterprise data via a user friendly interface. Users can also ask ‘Research’ based on ‘Reasoning’ based questions which may require the Agent to consider web data, API’s or other 3rd party sources. This truly breaks the boundaries of the type of questions you can ask and brings a ‘Human’ element to the entire conversation. All of this helps us Transpose from the Data Gathering stage, directly to the Business User AI Adoption without having to go through the hops.
+This paradigm shift helps us to go from the technical output based tasks to the business outcome based jobs that also allows the business users & data scientists to collaborate at ease, reducing the testing cycle significantly and shortening the time to market.
+
+As an ELITE Snowflake Services partner, we have worked with numerous clients in developing such ‘Text to SQL’ or ‘RAG’ solutions so far. And User Training has been a big part of it the adoption cycle. Explaining the end users how the chatbot works, creating a user guide on what kind of questions to ask and more importantly what not to ask, explaining the boundaries of the chatbot, etc. With Snowflake Intelligence, User Training and the overall User Adoption is going to become significantly faster as the users can now ask a much larger variety of questions and the boundaries of what it cannot do are fading away.
+
+Lastly, as an SI partner, we at kipi have been experiencing the shift first hand, where the end users want answers to the ‘Why’ part of the question and not just ‘What’. AI Agents allow you to do that. As Snowflake Intelligence is bringing business users closer to the technology teams it also improves the overall quality of the output and reduces the cycles.
+To put it simply, Snowflake Intelligence truly expedites the AI Adoption at the Business User level across your organization.
+
+The GenAI Wild West Data Challenge
+New ISVs & Multi-Team Experimental Development Creating “Wild West” Data Silos, Inefficiencies & Risks
+Unstructured Data
+Data Challenges
+A centralized data architecture is needed to improve unstructured data processing
+Data silos & risks
+Inefficiency
+Higher costs
+AI ISVs & AI App Platforms
+Customer RAG AI App
+Unstructured data analytics for BI & ML
+Workplace RAG AI App
+In-House Dev Teams
+Processed data
+Vector DB / Index
+Ingest Process
+Embed index
+Orchestrate
+Retrieve
+Summarize
+Assistant
+DATA GOVERNANCE BOUNDARY
+32
+
+Need to Upgrade Data Platform Architecture to Address GenAI Needs
+Co-locate Structured & Unstructured Data Processing; Support Structured, Unstructured Data & ML Powered Apps
+DATA CONSUMPTION
+
+Agents, Apps, ML
+RETRIEVE
+DATA 
+PROCESSING
+
+Bronze → Silver → Gold
+AI READY DATA PLATFORM
+DATA SOURCES
+
+Structured & Unstructured
+INGEST
+33
+
+RETRIEVE
+Customer 360 Powered by GenAI 
+and Snowflake Intelligence
+Co-locate Structured & Unstructured Data Processing; Support Structured, Unstructured Data & ML Powered Apps
+
+
+
+
+
+
+AI READY DATA PLATFORM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROCESSING
+SILVER
+BRONZE
+Structured data products
+Semantic model
+Unstructured data products
+AI READY GOLD
+Structured data processing
+Unstructured data processing
+Collaboration
+Zoom, Gong
+Knowledge Bases
+Sharepoint, GDrive
+SaaS Vendors
+Salesforce, Zendesk
+ERP
+SAP, Netsuite
+SaaS App
+Customer DBs
+DATA SOURCES
+INGEST
+SNOWFLAKE
+INTELLIGENCE
+AI assistant / agents 
+Operations
+Apps
+34
+
+How to Make Your Data Platform AI Ready: Four Key New Components
+Optimized Unstructured Data Ingestion, Unstructured Data Processing Engine, AI Ready Gold Layer & AI Retrieval & Sharing
+AI assistant / agents 
+Operations
+BI
+Machine Learning
+Apps
+USES
+
+
+
+
+
+
+AI READY DATA PLATFORM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROCESSING
+SILVER
+BRONZE
+Structured data products
+Semantic model
+Structured data processing
+Collaboration
+Zoom, Gong
+Knowledge Bases
+Sharepoint, GDrive
+SaaS Vendors
+Salesforce, Zendesk
+ERP
+SAP, Netsuite
+SaaS App
+Customer DBs
+DATA SOURCES
+INGEST
+SHARE & RETRIEVE
+Unstructured data products
+AI READY GOLD
+Unstructured data processing
+(powered by LLMs & LLMOps/Evals)
+OpenFlow, Snowpipe
+SQL, Python, Vector, KW
+1
+2
+3
+4
+35
+
+Best Practices and Tips
+Each agent should have a business owner and a data owner working collaboratively
+The semantic model is often the best place to add more data and context to improve the quality of your agent
+Start small - find a single business function or application, build it, test it, improve it. Grow from there
+Create golden dataset to ensure the experience does not regress as you add more functionality to your Agent
+Conduct a pilot with a small set of users to identify interaction blind spots
+1
+2
+3
+5
+6
+Bigger is not always better for your semantic view. Splitting views makes it easier for the agent to call across multiple datasets
+4
+36
+
+Roadmap
+MCP and A2A integration
+Integration of agents with Slack and Teams
+Spaces to share and collaborate on charts and insights
+One-click integration of Openflow with Snowflake Intelligence (including access controls)
+More regions
+37
+
+THANK YOU

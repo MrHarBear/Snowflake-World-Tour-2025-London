@@ -1,0 +1,840 @@
+name: CALL_CENTER_SEMANTIC_MODEL_ENHANCED
+description: >
+  Enhanced semantic model for call center analytics with comprehensive business context.
+  Combines call transcripts, sentiment analysis, and customer demographic data. 
+  Includes synonyms, metrics, filters, and verified queries for natural language interaction.
+
+tables:
+  # ============================================
+  # CUSTOMER PROFILE - Dimension table
+  # ============================================
+  - name: customer_profile
+    description: >
+      Customer demographic and account information including geographic location,
+      account type, tenure, and lifetime value. Provides context for call analysis
+      by customer segment, region, and account characteristics.
+    
+    base_table:
+      database: CALL_CENTER_ANALYTICS
+      schema: AUDIO_PROCESSING
+      table: AI_TRANSCRIBED_CALLS_AI_GENERATED_CUSTOMER_PROFILE
+    
+    primary_key:
+      columns:
+        - CUSTOMER_NAME
+    
+    dimensions:
+      - name: CUSTOMER_NAME
+        synonyms:
+          - "customer"
+          - "client name"
+          - "caller"
+        description: Customer full name (matches call center data)
+        expr: CUSTOMER_NAME
+        data_type: VARCHAR
+        unique: true
+      
+      - name: EMAIL
+        synonyms:
+          - "customer email"
+          - "email address"
+        description: Customer email address
+        expr: EMAIL
+        data_type: VARCHAR
+      
+      - name: PHONE
+        synonyms:
+          - "phone number"
+          - "contact number"
+          - "telephone"
+        description: Customer phone number
+        expr: PHONE
+        data_type: VARCHAR
+      
+      - name: STATE
+        synonyms:
+          - "customer state"
+          - "location state"
+        description: US state where customer is located
+        expr: STATE
+        data_type: VARCHAR
+      
+      - name: REGION
+        synonyms:
+          - "geographic region"
+          - "us region"
+          - "area"
+          - "territory"
+        description: >
+          US geographic region (West, South, Northeast, Southeast, Midwest).
+          Used for regional analysis and performance comparison.
+        expr: REGION
+        data_type: VARCHAR
+        sample_values:
+          - "West"
+          - "South"
+          - "Northeast"
+          - "Southeast"
+          - "Midwest"
+        is_enum: true
+      
+      - name: COUNTRY
+        synonyms:
+          - "customer country"
+        description: Country where customer is located
+        expr: COUNTRY
+        data_type: VARCHAR
+      
+      - name: CITY
+        synonyms:
+          - "customer city"
+          - "location"
+        description: City where customer is located
+        expr: CITY
+        data_type: VARCHAR
+      
+      - name: ACCOUNT_TYPE
+        synonyms:
+          - "customer type"
+          - "account category"
+        description: Type of customer account - Residential or Business
+        expr: ACCOUNT_TYPE
+        data_type: VARCHAR
+        sample_values:
+          - "Residential"
+          - "Business"
+        is_enum: true
+      
+      - name: CUSTOMER_SEGMENT
+        synonyms:
+          - "segment"
+          - "customer tier"
+          - "service tier"
+        description: >
+          Customer segment classification (Individual, Premium, Senior, Enterprise, Mid-Market).
+          Determines service level and pricing tier.
+        expr: CUSTOMER_SEGMENT
+        data_type: VARCHAR
+        sample_values:
+          - "Individual"
+          - "Premium"
+          - "Senior"
+          - "Enterprise"
+          - "Mid-Market"
+        is_enum: true
+      
+      - name: ACCOUNT_STATUS
+        synonyms:
+          - "status"
+          - "customer status"
+          - "account state"
+        description: Current status of the customer account (Active, Cancelled, Churned)
+        expr: ACCOUNT_STATUS
+        data_type: VARCHAR
+        sample_values:
+          - "Active"
+          - "Cancelled"
+          - "Churned"
+        is_enum: true
+      
+      - name: PAYMENT_METHOD
+        synonyms:
+          - "payment type"
+          - "billing method"
+        description: Customer's payment method (Credit Card, Bank Transfer, Debit Card, Invoice)
+        expr: PAYMENT_METHOD
+        data_type: VARCHAR
+      
+      - name: PREFERRED_CONTACT
+        synonyms:
+          - "contact preference"
+          - "preferred channel"
+          - "contact method"
+        description: Customer's preferred method of contact (Phone, Email, SMS)
+        expr: PREFERRED_CONTACT
+        data_type: VARCHAR
+      
+      - name: LANGUAGE_PREFERENCE
+        synonyms:
+          - "language"
+          - "preferred language"
+        description: Customer's preferred language for service
+        expr: LANGUAGE_PREFERENCE
+        data_type: VARCHAR
+      
+      - name: AGE_GROUP
+        synonyms:
+          - "age"
+          - "age range"
+          - "age bracket"
+        description: Customer age group bracket
+        expr: AGE_GROUP
+        data_type: VARCHAR
+      
+      - name: INDUSTRY
+        synonyms:
+          - "business industry"
+          - "sector"
+          - "vertical"
+        description: Industry sector for business customers (N/A for residential)
+        expr: INDUSTRY
+        data_type: VARCHAR
+    
+    time_dimensions:
+      - name: CUSTOMER_SINCE
+        synonyms:
+          - "customer tenure"
+          - "account age"
+          - "member since"
+          - "signup date"
+          - "join date"
+        description: Date when customer account was created
+        expr: CUSTOMER_SINCE
+        data_type: DATE
+    
+    facts:
+      - name: CUSTOMER_ID
+        synonyms:
+          - "customer number"
+          - "account number"
+        description: Unique customer identifier
+        expr: CUSTOMER_ID
+        data_type: NUMBER
+      
+      - name: MONTHLY_PLAN_VALUE
+        synonyms:
+          - "monthly revenue"
+          - "plan value"
+          - "monthly fee"
+          - "mrr"
+          - "monthly recurring revenue"
+        description: Monthly recurring revenue from this customer's plan
+        expr: MONTHLY_PLAN_VALUE
+        data_type: NUMBER
+      
+      - name: LIFETIME_VALUE
+        synonyms:
+          - "ltv"
+          - "customer lifetime value"
+          - "total revenue"
+          - "total value"
+        description: Total revenue generated from this customer over their lifetime
+        expr: LIFETIME_VALUE
+        data_type: NUMBER
+      
+      - name: POSTAL_CODE
+        synonyms:
+          - "zip code"
+          - "zip"
+        description: ZIP/Postal code
+        expr: POSTAL_CODE
+        data_type: NUMBER
+    
+    filters:
+      - name: premium_customers
+        synonyms:
+          - "premium tier"
+          - "high value customers"
+        description: Filters for premium customer segments (Premium, Enterprise)
+        expr: CUSTOMER_SEGMENT IN ('Premium', 'Enterprise')
+      
+      - name: west_region
+        synonyms:
+          - "western region"
+          - "west coast"
+        description: Filters for customers in the West region
+        expr: REGION = 'West'
+      
+      - name: business_customers
+        synonyms:
+          - "business accounts"
+          - "b2b customers"
+          - "commercial accounts"
+        description: Filters for business customer accounts
+        expr: ACCOUNT_TYPE = 'Business'
+      
+      - name: at_risk_customers
+        synonyms:
+          - "churned or cancelled"
+          - "lost customers"
+          - "former customers"
+        description: Filters for customers who have cancelled or churned
+        expr: ACCOUNT_STATUS IN ('Cancelled', 'Churned')
+    
+    metrics:
+      - name: total_customers
+        synonyms:
+          - "customer count"
+          - "number of customers"
+        description: Total number of customers
+        expr: COUNT(*)
+      
+      - name: average_lifetime_value
+        synonyms:
+          - "avg ltv"
+          - "mean customer value"
+        description: Average lifetime value across customers
+        expr: AVG(LIFETIME_VALUE)
+      
+      - name: total_monthly_revenue
+        synonyms:
+          - "total mrr"
+          - "monthly revenue"
+        description: Total monthly recurring revenue across all customers
+        expr: SUM(MONTHLY_PLAN_VALUE)
+      
+      - name: churn_rate
+        synonyms:
+          - "customer churn"
+          - "attrition rate"
+        description: Percentage of customers who have cancelled or churned
+        expr: (SUM(CASE WHEN ACCOUNT_STATUS IN ('Cancelled', 'Churned') THEN 1 ELSE 0 END)::FLOAT / COUNT(*)) * 100
+      
+      - name: average_customer_tenure_months
+        synonyms:
+          - "avg tenure"
+          - "average account age"
+        description: Average number of months customers have been with the company
+        expr: AVG(DATEDIFF(month, CUSTOMER_SINCE, CURRENT_DATE()))
+
+  # ============================================
+  # CALL CENTER DATA - Main fact table
+  # ============================================
+  - name: call_center_data
+    description: >
+      Fact table containing call center interactions with AI-powered sentiment analysis,
+      agent performance scores, and resolution tracking. Each row represents a unique
+      customer service call with complete transcript and analysis.
+    
+    base_table:
+      database: CALL_CENTER_ANALYTICS
+      schema: AUDIO_PROCESSING
+      table: AI_TRANSCRIBED_CALLS_AI_GENERATED
+    
+    primary_key:
+      columns:
+        - CALL_ID
+    
+    dimensions:
+      - name: CALL_ID
+        synonyms:
+          - "call number"
+          - "interaction id"
+          - "call reference"
+        description: Unique identifier for each call interaction
+        expr: CALL_ID
+        data_type: VARCHAR
+        unique: true
+      
+      - name: CUSTOMER_NAME
+        synonyms:
+          - "caller name"
+          - "customer"
+          - "client name"
+        description: Name of the customer who made or received the call
+        expr: CUSTOMER_NAME
+        data_type: VARCHAR
+      
+      - name: AGENT_NAME
+        synonyms:
+          - "representative"
+          - "agent"
+          - "support rep"
+          - "service representative"
+          - "rep"
+        description: Name of the customer service agent who handled the call
+        expr: AGENT_NAME
+        data_type: VARCHAR
+      
+      - name: CALL_TYPE
+        synonyms:
+          - "call direction"
+          - "inbound or outbound"
+        description: Direction of the call - inbound (customer initiated) or outbound (company initiated)
+        expr: CALL_TYPE
+        data_type: VARCHAR
+        sample_values:
+          - "inbound"
+          - "outbound"
+        is_enum: true
+      
+      - name: PRIMARY_INTENT
+        synonyms:
+          - "call reason"
+          - "call purpose"
+          - "issue type"
+          - "reason for calling"
+        description: >
+          Primary reason or purpose of the call, categorized into standard types.
+          Includes billing issues, technical support requests, cancellations, complaints,
+          compliments, and general information inquiries.
+        expr: PRIMARY_INTENT
+        data_type: VARCHAR
+        sample_values:
+          - "billing"
+          - "technical_support"
+          - "cancellation"
+          - "complaint"
+          - "compliment"
+          - "information"
+        is_enum: true
+      
+      - name: SENTIMENT_CATEGORY
+        synonyms:
+          - "call sentiment"
+          - "customer mood"
+          - "emotional tone"
+        description: Overall sentiment of the call classified as POSITIVE, NEGATIVE, or NEUTRAL
+        expr: SENTIMENT_CATEGORY
+        data_type: VARCHAR
+        sample_values:
+          - "POSITIVE"
+          - "NEGATIVE"
+          - "NEUTRAL"
+        is_enum: true
+      
+      - name: URGENCY_LEVEL
+        synonyms:
+          - "priority"
+          - "urgency"
+          - "importance"
+        description: Priority level of the call issue - low, medium, or high
+        expr: URGENCY_LEVEL
+        data_type: VARCHAR
+        sample_values:
+          - "low"
+          - "medium"
+          - "high"
+        is_enum: true
+      
+      - name: ISSUE_RESOLVED
+        synonyms:
+          - "resolved"
+          - "resolution status"
+          - "was issue fixed"
+          - "fixed"
+        description: Whether the customer's issue was resolved during the call
+        expr: ISSUE_RESOLVED
+        data_type: VARCHAR
+        sample_values:
+          - "yes"
+          - "no"
+        is_enum: true
+      
+      - name: ESCALATION_REQUIRED
+        synonyms:
+          - "escalated"
+          - "needs escalation"
+          - "escalation needed"
+        description: Whether the call required escalation to a supervisor or specialist
+        expr: ESCALATION_REQUIRED
+        data_type: BOOLEAN
+      
+      - name: CUSTOMER_SATISFACTION
+        synonyms:
+          - "satisfaction level"
+          - "customer happiness"
+          - "csat"
+        description: Customer satisfaction level after the call - satisfied, neutral, or dissatisfied
+        expr: CUSTOMER_SATISFACTION
+        data_type: VARCHAR
+        sample_values:
+          - "satisfied"
+          - "neutral"
+          - "dissatisfied"
+        is_enum: true
+      
+      - name: CALL_CLASSIFICATION
+        synonyms:
+          - "call category"
+          - "call class"
+          - "interaction type"
+        description: Classification of the call type (e.g., Billing Issue, Technical Support, Inquiry)
+        expr: CALL_CLASSIFICATION
+        data_type: VARCHAR
+      
+      - name: CALL_SUMMARY
+        synonyms:
+          - "summary"
+          - "call overview"
+          - "brief description"
+        description: AI-generated summary of the call content and outcome
+        expr: CALL_SUMMARY
+        data_type: VARCHAR
+      
+      - name: TRANSCRIPT_TEXT
+        synonyms:
+          - "transcript"
+          - "call transcript"
+          - "conversation"
+          - "call text"
+        description: Full unstructured text of the call conversation
+        expr: TRANSCRIPT_TEXT
+        data_type: VARCHAR
+      
+      - name: IMPROVEMENT_OPPORTUNITIES
+        synonyms:
+          - "coaching opportunities"
+          - "areas for improvement"
+          - "feedback"
+        description: AI-generated suggestions for agent improvement
+        expr: IMPROVEMENT_OPPORTUNITIES
+        data_type: VARCHAR
+      
+      - name: CALL_ANALYSIS
+        synonyms:
+          - "analysis"
+          - "call details"
+        description: Detailed JSON analysis of the call
+        expr: CALL_ANALYSIS
+        data_type: VARCHAR
+      
+      - name: EXTRACTED_FIELDS
+        synonyms:
+          - "extracted data"
+          - "structured fields"
+        description: Extracted structured fields from the call
+        expr: EXTRACTED_FIELDS
+        data_type: VARCHAR
+    
+    time_dimensions:
+      - name: ANALYSIS_TIMESTAMP
+        synonyms:
+          - "call date"
+          - "call time"
+          - "when did the call happen"
+          - "date of call"
+          - "call timestamp"
+        description: Timestamp when the call was analyzed (proxy for call date/time)
+        expr: ANALYSIS_TIMESTAMP
+        data_type: TIMESTAMP_NTZ
+    
+    facts:
+      - name: WORD_COUNT
+        synonyms:
+          - "transcript length"
+          - "call length in words"
+          - "number of words"
+        description: Number of words in the call transcript
+        expr: WORD_COUNT
+        data_type: NUMBER
+      
+      - name: SENTIMENT_SCORE
+        synonyms:
+          - "sentiment"
+          - "sentiment rating"
+          - "emotional score"
+        description: >
+          Numerical sentiment score ranging from -1 (very negative) to +1 (very positive).
+          Score of 0 indicates neutral sentiment.
+        expr: SENTIMENT_SCORE
+        data_type: NUMBER
+      
+      - name: AGENT_PERFORMANCE_SCORE
+        synonyms:
+          - "agent score"
+          - "agent rating"
+          - "performance rating"
+          - "agent performance"
+        description: >
+          Agent performance score from 0-10 based on communication quality, problem resolution,
+          empathy, and professionalism. Higher scores indicate better performance.
+        expr: AGENT_PERFORMANCE_SCORE
+        data_type: NUMBER
+    
+    filters:
+      - name: high_priority_calls
+        synonyms:
+          - "urgent calls"
+          - "high urgency"
+        description: Filters for calls marked as high urgency/priority
+        expr: URGENCY_LEVEL = 'high'
+      
+      - name: unresolved_issues
+        synonyms:
+          - "open issues"
+          - "not resolved"
+          - "pending issues"
+        description: Filters for calls where the issue was not resolved
+        expr: ISSUE_RESOLVED = 'no'
+      
+      - name: negative_sentiment_calls
+        synonyms:
+          - "negative calls"
+          - "unhappy customers"
+          - "dissatisfied calls"
+        description: Filters for calls with negative customer sentiment
+        expr: SENTIMENT_CATEGORY = 'NEGATIVE'
+      
+      - name: escalated_calls
+        synonyms:
+          - "escalations"
+          - "supervisor calls"
+        description: Filters for calls that required escalation
+        expr: ESCALATION_REQUIRED = TRUE
+      
+      - name: billing_issues
+        synonyms:
+          - "billing calls"
+          - "payment issues"
+          - "billing problems"
+        description: Filters for calls related to billing or payment issues
+        expr: PRIMARY_INTENT = 'billing'
+      
+      - name: recent_calls
+        synonyms:
+          - "last 30 days"
+          - "recent interactions"
+          - "past month"
+        description: Filters for calls from the last 30 days
+        expr: ANALYSIS_TIMESTAMP >= DATEADD(day, -30, CURRENT_TIMESTAMP())
+    
+    metrics:
+      - name: total_calls
+        synonyms:
+          - "call volume"
+          - "number of calls"
+          - "call count"
+        description: Total number of calls
+        expr: COUNT(*)
+      
+      - name: average_sentiment
+        synonyms:
+          - "avg sentiment"
+          - "mean sentiment"
+        description: Average sentiment score across calls
+        expr: AVG(SENTIMENT_SCORE)
+      
+      - name: resolution_rate
+        synonyms:
+          - "first call resolution"
+          - "fcr"
+          - "resolution percentage"
+        description: Percentage of calls where the issue was resolved
+        expr: (SUM(CASE WHEN ISSUE_RESOLVED = 'yes' THEN 1 ELSE 0 END)::FLOAT / COUNT(*)) * 100
+      
+      - name: escalation_rate
+        synonyms:
+          - "escalation percentage"
+          - "percent escalated"
+        description: Percentage of calls that required escalation
+        expr: (SUM(CASE WHEN ESCALATION_REQUIRED = TRUE THEN 1 ELSE 0 END)::FLOAT / COUNT(*)) * 100
+      
+      - name: average_agent_performance
+        synonyms:
+          - "avg agent score"
+          - "mean agent performance"
+        description: Average agent performance score across all calls
+        expr: AVG(AGENT_PERFORMANCE_SCORE)
+      
+      - name: customer_satisfaction_score
+        synonyms:
+          - "csat score"
+          - "satisfaction rate"
+        description: Percentage of calls with satisfied customers
+        expr: (SUM(CASE WHEN CUSTOMER_SATISFACTION = 'satisfied' THEN 1 ELSE 0 END)::FLOAT / COUNT(*)) * 100
+
+# ============================================
+# RELATIONSHIPS - Joins between tables
+# ============================================
+relationships:
+  - name: call_to_customer
+    left_table: call_center_data
+    right_table: customer_profile
+    relationship_columns:
+      - left_column: CUSTOMER_NAME
+        right_column: CUSTOMER_NAME
+    join_type: left_outer
+    relationship_type: many_to_one
+
+# ============================================
+# MODEL-LEVEL DERIVED METRICS
+# ============================================
+metrics:
+  - name: revenue_at_risk
+    synonyms:
+      - "churned customer revenue"
+      - "lost revenue"
+      - "at-risk mrr"
+    description: >
+      Monthly recurring revenue from customers who called with negative sentiment
+      or unresolved issues, indicating potential churn risk
+    expr: >
+      SUM(CASE 
+        WHEN call_center_data.SENTIMENT_CATEGORY = 'NEGATIVE' 
+          OR call_center_data.ISSUE_RESOLVED = 'no'
+        THEN customer_profile.MONTHLY_PLAN_VALUE 
+        ELSE 0 
+      END)
+  
+  - name: satisfaction_by_segment
+    synonyms:
+      - "csat by tier"
+      - "satisfaction by customer type"
+    description: Customer satisfaction rate broken down by customer segment
+    expr: >
+      (SUM(CASE WHEN call_center_data.CUSTOMER_SATISFACTION = 'satisfied' THEN 1 ELSE 0 END)::FLOAT 
+       / COUNT(*)) * 100
+
+# ============================================
+# VERIFIED QUERIES - Pre-validated questions
+# ============================================
+verified_queries:
+  - name: top_performing_agents
+    question: "Who are my top 5 performing agents by average performance score?"
+    sql: >
+      SELECT 
+        AGENT_NAME,
+        AVG(AGENT_PERFORMANCE_SCORE) as avg_performance,
+        COUNT(*) as total_calls,
+        AVG(SENTIMENT_SCORE) as avg_sentiment
+      FROM call_center_data
+      WHERE AGENT_PERFORMANCE_SCORE IS NOT NULL
+      GROUP BY AGENT_NAME
+      ORDER BY avg_performance DESC
+      LIMIT 5
+  
+  - name: regional_satisfaction_comparison
+    question: "Compare customer satisfaction rates across all regions"
+    sql: >
+      SELECT 
+        cp.REGION,
+        COUNT(DISTINCT cc.CALL_ID) as total_calls,
+        AVG(cc.SENTIMENT_SCORE) as avg_sentiment,
+        (SUM(CASE WHEN cc.CUSTOMER_SATISFACTION = 'satisfied' THEN 1 ELSE 0 END)::FLOAT 
+         / COUNT(*)) * 100 as satisfaction_rate,
+        (SUM(CASE WHEN cc.ISSUE_RESOLVED = 'yes' THEN 1 ELSE 0 END)::FLOAT 
+         / COUNT(*)) * 100 as resolution_rate
+      FROM call_center_data cc
+      LEFT JOIN customer_profile cp ON cc.CUSTOMER_NAME = cp.CUSTOMER_NAME
+      WHERE cp.REGION IS NOT NULL
+      GROUP BY cp.REGION
+      ORDER BY satisfaction_rate DESC
+  
+  - name: billing_issues_by_customer_value
+    question: "Show me billing issues broken down by customer segment and total revenue impact"
+    sql: >
+      SELECT 
+        cp.CUSTOMER_SEGMENT,
+        COUNT(DISTINCT cc.CALL_ID) as billing_call_count,
+        AVG(cc.SENTIMENT_SCORE) as avg_sentiment,
+        SUM(cp.MONTHLY_PLAN_VALUE) as total_monthly_revenue_affected
+      FROM call_center_data cc
+      LEFT JOIN customer_profile cp ON cc.CUSTOMER_NAME = cp.CUSTOMER_NAME
+      WHERE cc.PRIMARY_INTENT = 'billing'
+      GROUP BY cp.CUSTOMER_SEGMENT
+      ORDER BY total_monthly_revenue_affected DESC
+  
+  - name: unresolved_high_priority_calls
+    question: "What are the unresolved high priority calls in the last 30 days?"
+    sql: >
+      SELECT 
+        cc.CALL_ID,
+        cc.CUSTOMER_NAME,
+        cp.CUSTOMER_SEGMENT,
+        cp.REGION,
+        cc.PRIMARY_INTENT,
+        cc.CALL_SUMMARY,
+        cc.AGENT_NAME,
+        cc.ANALYSIS_TIMESTAMP
+      FROM call_center_data cc
+      LEFT JOIN customer_profile cp ON cc.CUSTOMER_NAME = cp.CUSTOMER_NAME
+      WHERE cc.URGENCY_LEVEL = 'high'
+        AND cc.ISSUE_RESOLVED = 'no'
+        AND cc.ANALYSIS_TIMESTAMP >= DATEADD(day, -30, CURRENT_TIMESTAMP())
+      ORDER BY cc.ANALYSIS_TIMESTAMP DESC
+  
+  - name: agent_improvement_opportunities
+    question: "Which agents have the most improvement opportunities and what are they?"
+    sql: >
+      SELECT 
+        AGENT_NAME,
+        COUNT(*) as total_calls,
+        AVG(AGENT_PERFORMANCE_SCORE) as avg_performance,
+        COUNT(CASE WHEN AGENT_PERFORMANCE_SCORE < 7 THEN 1 END) as low_scoring_calls,
+        IMPROVEMENT_OPPORTUNITIES
+      FROM call_center_data
+      WHERE IMPROVEMENT_OPPORTUNITIES IS NOT NULL
+        AND AGENT_PERFORMANCE_SCORE < 8
+      GROUP BY AGENT_NAME, IMPROVEMENT_OPPORTUNITIES
+      ORDER BY low_scoring_calls DESC
+      LIMIT 10
+  
+  - name: churn_risk_analysis
+    question: "Show me customers at risk of churning based on recent negative interactions"
+    sql: >
+      SELECT 
+        cp.CUSTOMER_NAME,
+        cp.CUSTOMER_SEGMENT,
+        cp.REGION,
+        cp.MONTHLY_PLAN_VALUE,
+        cp.LIFETIME_VALUE,
+        cp.ACCOUNT_STATUS,
+        COUNT(cc.CALL_ID) as recent_negative_calls,
+        AVG(cc.SENTIMENT_SCORE) as avg_sentiment
+      FROM customer_profile cp
+      JOIN call_center_data cc ON cp.CUSTOMER_NAME = cc.CUSTOMER_NAME
+      WHERE cc.SENTIMENT_CATEGORY = 'NEGATIVE'
+        AND cc.ANALYSIS_TIMESTAMP >= DATEADD(day, -60, CURRENT_TIMESTAMP())
+        AND cp.ACCOUNT_STATUS = 'Active'
+      GROUP BY cp.CUSTOMER_NAME, cp.CUSTOMER_SEGMENT, cp.REGION, 
+               cp.MONTHLY_PLAN_VALUE, cp.LIFETIME_VALUE, cp.ACCOUNT_STATUS
+      HAVING COUNT(cc.CALL_ID) >= 2
+      ORDER BY cp.MONTHLY_PLAN_VALUE DESC
+  
+  - name: west_region_investigation
+    question: "Why is the West region underperforming in customer satisfaction?"
+    sql: >
+      SELECT 
+        cp.REGION,
+        cc.PRIMARY_INTENT,
+        COUNT(*) as call_count,
+        AVG(cc.SENTIMENT_SCORE) as avg_sentiment,
+        (SUM(CASE WHEN cc.CUSTOMER_SATISFACTION = 'satisfied' THEN 1 ELSE 0 END)::FLOAT 
+         / COUNT(*)) * 100 as satisfaction_rate,
+        (SUM(CASE WHEN cc.ISSUE_RESOLVED = 'no' THEN 1 ELSE 0 END)::FLOAT 
+         / COUNT(*)) * 100 as unresolved_rate,
+        (SUM(CASE WHEN cc.ESCALATION_REQUIRED = TRUE THEN 1 ELSE 0 END)::FLOAT 
+         / COUNT(*)) * 100 as escalation_rate
+      FROM call_center_data cc
+      LEFT JOIN customer_profile cp ON cc.CUSTOMER_NAME = cp.CUSTOMER_NAME
+      WHERE cp.REGION = 'West'
+      GROUP BY cp.REGION, cc.PRIMARY_INTENT
+      ORDER BY call_count DESC
+
+# ============================================
+# CUSTOM INSTRUCTIONS FOR THE AGENT
+# ============================================
+custom_instructions: >
+  You are a call center intelligence assistant helping business users understand 
+  customer service performance, agent effectiveness, and customer satisfaction trends.
+  
+  When analyzing data:
+  - Always consider both call outcomes (resolution, satisfaction) and customer context (segment, region, tenure)
+  - Proactively identify patterns in negative sentiment or unresolved issues
+  - When discussing agent performance, be constructive and focus on improvement opportunities
+  - For regional comparisons, always include both volume metrics and quality metrics
+  - When revenue is involved, prioritize high-value customers and segments (Premium, Enterprise)
+  
+  Important business definitions:
+  - Our fiscal year runs January to December
+  - "First Call Resolution" (FCR) means ISSUE_RESOLVED = 'yes'
+  - "At-risk customers" are those with recent negative sentiment or unresolved issues
+  - Premium customers (Premium, Enterprise segments) receive priority service
+  - West region includes: California, Washington, Oregon, Montana, Nevada, Hawaii, Colorado
+  
+  When asked about trends:
+  - Default to last 30 days unless specified otherwise
+  - Always provide context by comparing to other periods or segments
+  
+  When asked "why" questions:
+  - Break down multiple factors (call volume, resolution rates, sentiment, agent performance)
+  - Look for correlations between customer attributes and call outcomes
+  - Search the TRANSCRIPT_TEXT field for specific mentions or patterns
+  - Suggest actionable insights, not just data points
+  
+  When referencing dollar amounts:
+  - MONTHLY_PLAN_VALUE is monthly recurring revenue (MRR)
+  - LIFETIME_VALUE is total customer value
+  - Always aggregate to show business impact
+
