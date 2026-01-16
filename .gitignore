@@ -41,3 +41,6 @@ snowflake.config
 
 # Superseded folder (old/archived files not needed in published repo)
 superseded/
+
+# Reference material (not part of the demo runtime)
+Reference/
